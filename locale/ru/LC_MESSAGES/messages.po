@@ -1,0 +1,2757 @@
+# Russian translations for PROJECT.
+# Copyright (C) 2017 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2019-06-03 10:16+0400\n"
+"PO-Revision-Date: 2017-02-03 12:00+0400\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: source/views.py:153
+msgid "Use /notifyschedule to turn off notifications."
+msgstr "/notifyschedule для отключения уведомлений."
+
+#: source/views.py:175 source/views.py:183
+msgid "Cashdesk operation"
+msgstr "Кассовая операция"
+
+#: source/company/__init__.py:28
+msgid "admin"
+msgstr "администратор"
+
+#: source/company/__init__.py:29
+msgid "engineer"
+msgstr "технолог"
+
+#: source/company/__init__.py:30
+msgid "manager"
+msgstr "менеджер"
+
+#: source/company/__init__.py:31
+msgid "worker"
+msgstr "сотрудник"
+
+#: source/company/__init__.py:32
+msgid "cashier"
+msgstr "кассир"
+
+#: source/company/employer.py:33
+msgid "New employee joined company."
+msgstr "Новый сотрудник присоединился к компании."
+
+#: source/company/employer.py:34
+msgid "Employee leave company."
+msgstr "Сотрудник покинул компанию."
+
+#: source/company/employer.py:35
+msgid "Employee fired from company."
+msgstr "Сотрудник уволен из компании."
+
+#: source/company/employer.py:36
+msgid "Employee got new rights in company."
+msgstr "Сотрудник получил новые полномочия в компании."
+
+#: source/company/employer.py:37
+msgid "The employee has his rights removed."
+msgstr "У сотрудника убраны полномочия."
+
+#: source/company/item.py:117
+msgid "Message from supplier '{}'."
+msgstr "Сообщение от поставщика '{}'."
+
+#: source/company/item.py:119 source/company/supplier.py:378
+msgid "You can get additional information in the chat with {}"
+msgstr "Вы можете получить дополнительную информацию в чате с {}"
+
+#: source/company/item.py:269
+msgid "Error"
+msgstr "Ошибка"
+
+#: source/company/item.py:297 source/telegram/command/log.py:37
+#: source/telegram/menu/mnu_company/log.py:30
+msgid "Activity of employees of company '{}' now logging in {}."
+msgstr "Действия сотрудников компании '{}' сейчас протоколируются в {}."
+
+#: source/company/item.py:299 source/telegram/command/log.py:43
+msgid "Use 'Company' -> 'Logging' menu in private chat @{} to disable logging."
+msgstr ""
+"Используйте меню 'Компания' -> 'Протокол' в приватном чате @{} для "
+"отключения протоколирования."
+
+#: source/company/supplier.py:218
+msgid "Supplier '{}' has removed your account from the client list."
+msgstr "Поставщик '{}' удалил ваш аккаунт из списка своих клиентов."
+
+#: source/company/supplier.py:221
+msgid "'{}' has removed account {}."
+msgstr "'{}' удалил аккаунт {}."
+
+#: source/company/supplier.py:224
+msgid "Account {} has disconnected from company customer."
+msgstr "Аккаунт {} отключился от заказчика компании."
+
+#: source/company/supplier.py:227
+msgid "Account {} has connected to company customer."
+msgstr "Аккаунт {} подключился к заказчику компании."
+
+#: source/company/supplier.py:296
+msgid "Your order '{}' to supplier '{}' was rejected."
+msgstr "Ваш заказ '{}' к поставщику '{}' отклонен."
+
+#: source/company/supplier.py:311
+msgid "Your order '{}' to supplier '{}' was approved."
+msgstr "Ваш заказ '{}' к поставщику '{}' принят."
+
+#: source/company/order/item.py:58 source/company/order/schedule.py:191
+#: source/company/supplier.py:313 source/company/supplier.py:322
+#: source/telegram/menu/mnu_order/edit/__init__.py:10
+msgid "Cost"
+msgstr "Стоимость"
+
+#: source/company/order/item.py:60 source/company/supplier.py:315
+#: source/company/supplier.py:329
+msgid "Plan"
+msgstr "План"
+
+#: source/company/supplier.py:320
+msgid "Your order '{}' to supplier '{}' has changed the cost."
+msgstr "У вашего заказа '{}' к поставщику '{}' изменена стоимость."
+
+#: source/company/supplier.py:327
+msgid "Your order '{}' to supplier '{}' has changed the planned dates."
+msgstr "У вашего заказа '{}' к поставщику '{}' изменены плановые даты."
+
+#: source/company/supplier.py:334
+msgid "Your order '{}' to supplier '{}' has been finished."
+msgstr "Ваш заказ '{}' к поставщику '{}' завершен."
+
+#: source/company/supplier.py:339
+msgid "Your order '{}' to supplier '{}' has been restored."
+msgstr "Ваш заказ '{}' к поставщику '{}' возобновлен."
+
+#: source/company/supplier.py:344
+msgid "Your order '{}' to supplier '{}' has been renamed to '{}'."
+msgstr "Ваш заказ '{}' к поставщику '{}' переименован в '{}'."
+
+#: source/company/supplier.py:352
+msgid ""
+"Your order '{}' to supplier '{}' has been changed customer information: "
+"'{}' -> '{}'."
+msgstr ""
+"У вашего заказа '{}' к поставщику '{}' изменены данные о заказчике: '{}' "
+"-> '{}'."
+
+#: source/company/supplier.py:359
+msgid "Your order '{}' to supplier '{}' has been set customer information: '{}'."
+msgstr "У вашего заказа '{}' к поставщику '{}' установлен заказчик: '{}'."
+
+#: source/company/supplier.py:365
+msgid ""
+"Your order '{}' to supplier '{}' has been deleted information about the "
+"client (was '{}')."
+msgstr ""
+"У вашего заказа '{}' к поставщику '{}' удалены данные о заказчике (было "
+"'{}')."
+
+#: source/company/supplier.py:420
+msgid "New request from customer '{}' Telegram account: {}"
+msgstr "Новая заявка от клиента '{}' с аккаунта Telegram: {}"
+
+#: source/company/goods/classes.py:14 source/company/goods/item.py:53
+msgid "'{}' section contains too many elements ({})."
+msgstr "Раздел '{}' содержит слишком много элементов ({})."
+
+#: source/company/goods/classes.py:16 source/company/goods/item.py:55
+msgid "The maximum is {}."
+msgstr "Максимальное значение {}."
+
+#: source/company/goods/item.py:62
+msgid "Duplicate external_id: {}."
+msgstr "Повторяющиеся external_id: {}."
+
+#: source/company/goods/jsonfile.py:10
+msgid "Loading of goods from file failed"
+msgstr "Загрузить список товаров из файла не удалось"
+
+#: source/company/goods/jsonfile.py:32
+msgid "wrong uploaded file ID: '{}'"
+msgstr "ошибка при загрузке файла с ID: '{}'"
+
+#: source/company/goods/jsonfile.py:41 source/company/goods/jsonfile.py:45
+msgid "'{}' section not found in uploaded file."
+msgstr "Раздел '{}' не найден в загруженном файле."
+
+#: source/company/goods/jsonfile.py:65
+msgid "Loading of goods from file was successful."
+msgstr "Успешная загрузка товаров и услуг из файла."
+
+#: source/company/goods/jsonfile.py:67
+msgid "Classes: {}"
+msgstr "Классы: {}"
+
+#: source/company/goods/jsonfile.py:69
+msgid "Categories and goods: new {} update {} delete {}"
+msgstr "Каталоги и товары: новых {} изменено {} удалено {}"
+
+#: source/company/order/item.py:14
+msgid "Order for customer '{}'."
+msgstr "Заказ для клиента '{}'."
+
+#: source/company/order/item.py:21
+msgid "Created {} by Telegram user '{}'."
+msgstr "Создан {} пользователем Telegram '{}'."
+
+#: source/company/order/item.py:26
+msgid "Created {} by employee '{}'."
+msgstr "Создан {} сотрудником '{}'."
+
+#: source/company/order/item.py:35
+msgid "Desription"
+msgstr "Описание"
+
+#: source/company/order/item.py:40 source/telegram/command/language.py:18
+#: source/telegram/menu/mnu_company/language.py:7
+#: source/telegram/menu/mnu_company/location/country.py:33
+msgid "not set"
+msgstr "не задано"
+
+#: source/company/order/item.py:48
+msgid "Class"
+msgstr "Класс"
+
+#: source/company/order/item.py:51
+msgid "Calculated cost"
+msgstr "Расчетная стоимость"
+
+#: source/company/order/item.py:67
+msgid "Finished {} by employee '{}'."
+msgstr "Завершен {} сотрудником '{}'."
+
+#: source/company/order/item.py:76
+msgid "Cashdesk operations"
+msgstr "Кассовые операции"
+
+#: source/company/order/schedule.py:38
+msgid "Order canceled."
+msgstr "Заказ отменен."
+
+#: source/company/order/schedule.py:39
+msgid "New order."
+msgstr "Новый заказ."
+
+#: source/company/order/schedule.py:40
+msgid "Order changed."
+msgstr "Заказ изменен."
+
+#: source/company/order/schedule.py:41
+msgid "Order completed."
+msgstr "Заказ завершен."
+
+#: source/company/order/schedule.py:42
+msgid "Order restored."
+msgstr "Заказ возобновлен."
+
+#: source/company/order/schedule.py:188
+msgid "Planned start"
+msgstr "Начало"
+
+#: source/company/order/schedule.py:189
+msgid "Planned finish"
+msgstr "Завершение"
+
+#: source/company/order/schedule.py:190
+#: source/telegram/menu/mnu_order/edit/__init__.py:9
+#: source/telegram/menu/mnu_prices/goods.py:39
+#: source/telegram/menu/mnu_suppliers/order/__init__.py:10
+msgid "Description"
+msgstr "Описание"
+
+#: source/company/order/schedule.py:192
+msgid "Created by"
+msgstr "Создан"
+
+#: source/company/order/schedule.py:193
+#: source/telegram/menu/mnu_order/edit/__init__.py:8
+msgid "Customer"
+msgstr "Заказчик"
+
+#: source/company/order/schedule.py:202
+msgid "Total"
+msgstr "Всего"
+
+#: source/telegram/__init__.py:6
+msgid "private"
+msgstr "приватный чат"
+
+#: source/telegram/__init__.py:7
+msgid "group"
+msgstr "группа"
+
+#: source/telegram/__init__.py:8
+msgid "supergroup"
+msgstr "супергруппа"
+
+#: source/telegram/__init__.py:9
+msgid "channel"
+msgstr "канал"
+
+#: source/telegram/bot.py:37
+msgid "You can communicate with bot in private chat @{}"
+msgstr "Работать с ботом нужно в приватном чате @{}"
+
+#: source/telegram/callback/handlers.py:19 source/telegram/menu/__init__.py:75
+#: source/telegram/menu/goods.py:19 source/telegram/menu/goods.py:24
+#: source/telegram/menu/mnu_cashbox/__init__.py:75
+#: source/telegram/menu/mnu_client/edit/accounts.py:18
+#: source/telegram/menu/mnu_client/find.py:58
+#: source/telegram/menu/mnu_company/location/country.py:22
+#: source/telegram/menu/mnu_company/location/time_zone.py:8
+#: source/telegram/menu/mnu_employees/__init__.py:19
+#: source/telegram/menu/mnu_employees/select.py:17
+#: source/telegram/menu/mnu_order/body/ord_class.py:12
+#: source/telegram/menu/mnu_order/body/row.py:18
+#: source/telegram/menu/mnu_suppliers/__init__.py:9
+#: source/telegram/menu/schedule.py:194 source/telegram/menu/tasks.py:14
+msgid "Cancel"
+msgstr "Отказ"
+
+#: source/telegram/command/__init__.py:6
+msgid "At the moment you are not a member of any company."
+msgstr "Сейчас вы не состоите в компании."
+
+#: source/telegram/command/__init__.py:8
+msgid "Use @{} chat to create your own company by /start command."
+msgstr "В чате @{} вы можете создать свою собственную компанию командой /start"
+
+#: source/telegram/command/language.py:23
+msgid "Your current language is '{}'."
+msgstr "Ваш текущий язык '{}'."
+
+#: source/telegram/command/language.py:25
+msgid "Select language from the list."
+msgstr "Выберите язык из списка."
+
+#: source/telegram/command/language.py:27
+#: source/telegram/command/partnership.py:54
+msgid "To return to bot menu, use /start command."
+msgstr "Для возврата в меню бота используйте команду /start"
+
+#: source/telegram/command/language.py:35
+msgid "/language command can be used in private chat @{}"
+msgstr "Команду /language можно использовать в приватном чате @{}"
+
+#: source/telegram/command/language.py:48
+#: source/telegram/command/start/private/__init__.py:104
+#: source/telegram/command/start/private/employee.py:19
+#: source/telegram/command/start/private/supplier.py:18
+msgid "Language set to '{}'."
+msgstr "Язык установлен в '{}'."
+
+#: source/telegram/command/log.py:13
+msgid ""
+"/log command can be used only by company creators for enabling logging of"
+" activity in their company."
+msgstr ""
+"команда /log может использоваться владельцем компании для включения "
+"протоколирования действий в его компании."
+
+#: source/telegram/command/log.py:39
+msgid "You can send /log command to another chat to switch logging there."
+msgstr ""
+"Вы можете послать команду /log в другой чат для переключения протокола "
+"туда."
+
+#: source/telegram/command/log.py:41
+msgid "{} must be a member of that chat."
+msgstr "{} должен быть участником этого чата."
+
+#: source/telegram/command/log.py:70
+msgid "To start logging to this channel, send */log CODE* here."
+msgstr ""
+"Для использования этого канала для протоколирования пошлите сюда команду "
+"*/log КОД-КОМПАНИИ*"
+
+#: source/telegram/command/log.py:75
+msgid "Wrong company code: '{}'"
+msgstr "Неверный код компании: '{}'"
+
+#: source/telegram/command/log.py:80
+msgid "Company already have log channel."
+msgstr "У компании уже есть канал протокола."
+
+#: source/telegram/command/log.py:82
+msgid "To switch log to this channel, first clear log settings in company menu."
+msgstr ""
+"Для переключения протокола на этот канал сначала отключите текущие "
+"настройки протокола в меню компании."
+
+#: source/telegram/command/log.py:86
+msgid "Request for switching log to this channel was sent to the company owner."
+msgstr "Запрос на переключение протокола на этот канал послан владельцу компании."
+
+#: source/telegram/command/log.py:89
+msgid "Are you wish to enable company logging to channel '{}'?"
+msgstr ""
+"Вы хотите включить протоколирование действий сотрудников компании в "
+"канале '{}'?"
+
+#: source/telegram/command/log.py:93 source/telegram/menu/__init__.py:23
+msgid "Yes"
+msgstr "Да"
+
+#: source/telegram/command/log.py:97 source/telegram/menu/__init__.py:24
+msgid "No"
+msgstr "Нет"
+
+#: source/telegram/command/notify_schedule.py:11
+#: source/telegram/command/partnership.py:70
+#: source/telegram/command/partnership.py:92
+msgid "Notifications are off."
+msgstr "Оповещения выключены."
+
+#: source/telegram/command/notify_schedule.py:19
+#: source/telegram/command/partnership.py:68
+#: source/telegram/command/partnership.py:84
+msgid "Notifications are on."
+msgstr "Оповещения включены."
+
+#: source/telegram/command/notify_schedule.py:24
+msgid ""
+"/notifyschedule command can be used to turn on/off notifications about "
+"company schedule changes."
+msgstr ""
+"команду /notifyschedule можно использовать для включения/выключения "
+"оповещений об измененияъ в расписании работ компании."
+
+#: source/telegram/command/notify_schedule.py:45
+msgid "You don't have access to schedule."
+msgstr "У вас нет доступа к расписанию."
+
+#: source/telegram/command/notify_schedule.py:48
+msgid ""
+"Are you wish to be notified, when the schedule of company '{}' will be "
+"changed?"
+msgstr "Вам нужны оповещения об изменениях в расписании компании '{}'?"
+
+#: source/telegram/command/notify_schedule.py:56
+msgid "/notifyschedule command can be used in private chat @{}"
+msgstr "Команду /notifyschedule можно использовать в приватном чате @{}"
+
+#: source/telegram/command/partnership.py:16
+msgid "Notifications"
+msgstr "Оповещения"
+
+#: source/telegram/command/partnership.py:17
+msgid "Download .csv"
+msgstr "Скачать .csv"
+
+#: source/telegram/command/partnership.py:35
+msgid "Welcome to @{} partnership program!"
+msgstr "Вас приветствует партнерская программа @{}"
+
+#: source/telegram/command/partnership.py:37
+msgid "Total referrals: {}"
+msgstr "Всего рефералов: {}"
+
+#: source/telegram/command/partnership.py:39
+msgid "Your partnership link"
+msgstr "Ваша партнерская ссылка"
+
+#: source/telegram/command/partnership.py:41
+msgid ""
+"Each user, that at first time open conversation with @{} by the link with"
+" your partnership code, will be counted as your referral."
+msgstr ""
+"Каждый пользователь Telegram, впервые открывший диалог с @{} через ссылку"
+" с вашим партнерским кодом, считается вашим рефералом."
+
+#: source/telegram/command/partnership.py:46
+msgid "Also, you can use additional data in the link after '_' char."
+msgstr ""
+"Также вы можете использовать дополнительные данные в ссылке после символа"
+" '_'."
+
+#: source/telegram/command/partnership.py:48
+msgid "For example"
+msgstr "Например"
+
+#: source/telegram/command/partnership.py:50
+msgid ""
+"The overall length of your code plus your data cannot exceed 64 "
+"characters."
+msgstr "Общая длина вашего кода плюс доп.данных не должна превышать 64 символа."
+
+#: source/telegram/command/partnership.py:52
+msgid "Only A-Z, a-z, 0-9 _ and - are allowed."
+msgstr "Разрешены A-Z, a-z, 0-9, _ и -"
+
+#: source/telegram/command/partnership.py:61
+msgid "/partnership command can be used in private chat @{}"
+msgstr "Команду /partnership можно использовать в приватном чате @{}"
+
+#: source/telegram/command/partnership.py:75
+msgid "Are you want a Telegram notifications?"
+msgstr "Вам нужны оповещения в Telegram?"
+
+#: source/telegram/command/partnership.py:139
+msgid "List of registered referrals for last {} days, UTC times"
+msgstr ""
+"Список ваших рефералов, зарегистрировавшихся за последние {} дней, время "
+"по Гринвичу."
+
+#: source/telegram/command/partnership.py:142
+#: source/telegram/menu/mnu_downloads/__init__.py:33
+#: source/telegram/menu/mnu_downloads/__init__.py:55
+#: source/telegram/menu/mnu_downloads/__init__.py:78
+#: source/telegram/menu/mnu_downloads/__init__.py:100
+msgid "Please wait, data are processing."
+msgstr "Подождите, данные обрабатываются."
+
+#: source/telegram/command/stop.py:10
+msgid "Employee left the company."
+msgstr "Сотрудник покинул компанию."
+
+#: source/telegram/command/stop.py:15
+msgid "You left the company '{}'."
+msgstr "Вы покинули компанию '{}'."
+
+#: source/telegram/command/stop.py:20
+msgid "/stop command can be used by a member of the company to leave."
+msgstr "Команду /stop может использовать сотрудник для выхода из компании."
+
+#: source/telegram/command/stop.py:40
+msgid "You are a creator of company '{}', so you can't leave."
+msgstr "Вы владелец компании '{}', поэтому не можете выйти из нее."
+
+#: source/telegram/command/stop.py:42
+msgid "You can completely delete your company from 'Company' menu."
+msgstr "Вы можете полностью удалить вашу компанию в меню 'Компания'."
+
+#: source/telegram/command/stop.py:46
+msgid "Are you sure you want to leave company '{}'?"
+msgstr "Вы действительно хотите покинуть компанию '{}'?"
+
+#: source/telegram/command/stop.py:52
+msgid "/stop command can be used in private chat @{}"
+msgstr "Команду /stop можно использовать в приватном чате @{}"
+
+#: source/telegram/command/help/main.py:4 source/telegram/menu/__init__.py:173
+msgid ""
+"This bot keeps a schedule for people and organizations that serve "
+"customers by appointment."
+msgstr ""
+"Этот бот ведет расписание для людей и организаций, работающих с клиентами"
+" по предварительной записи."
+
+#: source/telegram/command/help/main.py:6
+msgid "You can control this bot by sending commands to @{}"
+msgstr "Вы можете управлять ботом, отправляя команды в @{}"
+
+#: source/telegram/command/help/main.py:8
+msgid "Each command starts with '/' char."
+msgstr "Каждая команда должна начинаться с символа '/'."
+
+#: source/telegram/command/help/main.py:10
+msgid "most important command."
+msgstr "самая важная команда."
+
+#: source/telegram/command/help/main.py:12
+msgid "Displays root menu, according to your rights in the company."
+msgstr ""
+"Показывает корневое меню доступных вам действий, согласно вашим "
+"полномочиям в компании."
+
+#: source/telegram/command/help/main.py:14
+msgid "If something went wrong, send /start command."
+msgstr "Если что-то пошло не так, отправьте команду /start."
+
+#: source/telegram/command/help/main.py:16
+msgid "In most cases, it will be helpful."
+msgstr "Это должно помочь в большинстве случаев."
+
+#: source/telegram/command/help/main.py:18
+msgid "describes root menu for works with the company."
+msgstr "описание корневого меню работы в компании."
+
+#: source/telegram/command/help/main.py:20
+msgid "use this to leave your current company."
+msgstr "используйте для выхода из вашей текущей компании."
+
+#: source/telegram/command/help/main.py:22
+msgid "set language for private chat @{}"
+msgstr "установить язык для чата с @{}"
+
+#: source/telegram/command/help/main.py:24
+msgid "turn on/off notifications about changes in company schedule."
+msgstr "включает/выключает оповещения об изменениях в расписании заказов компании."
+
+#: source/telegram/command/help/main.py:26
+msgid ""
+"send this command to any chat, where {} is participated, to start logging"
+" all company activity in that chat."
+msgstr ""
+"отправьте эту команду в любой чат, где участвует {}, чтобы включить в "
+"этом чате протоколирование всех действий сотрудников компании."
+
+#: source/telegram/command/help/main.py:31
+msgid "This command availible for company owner only."
+msgstr "Эта команда доступна только владельцу компании."
+
+#: source/telegram/command/help/main.py:33
+msgid "describes voice input feature."
+msgstr "описание функции голосового ввода."
+
+#: source/telegram/command/help/main.py:35
+msgid "displays this message."
+msgstr "показывает это сообщение."
+
+#: source/telegram/command/help/main.py:37
+msgid "You can read [bot description]({}) and our [Privacy Policy]({})."
+msgstr ""
+"Вы можете ознакомиться с [описанием бота]({}) и нашей [Политикой "
+"конфиденциальности]({})."
+
+#: source/telegram/command/help/main.py:38
+msgid ""
+"http://telegra.ph/Your-orders-clients-employees-schedule-and-a-catalog-"
+"of-goods-inside-Telegram-messenger-03-26"
+msgstr "http://telegra.ph/Raspisanie-rabot-v-Telegram-10-30"
+
+#: source/telegram/command/help/main.py:42
+msgid "http://telegra.ph/Privacy-Policy-07-27"
+msgstr "http://telegra.ph/Politika-konfidencialnosti-07-27"
+
+#: source/telegram/command/help/main.py:45
+msgid "[Telegram channel]({}) with news about bot development."
+msgstr "[Telegram канал]({}) с новостями о разработке бота."
+
+#: source/telegram/command/help/main.py:45
+msgid "https://t.me/bsbnewsen"
+msgstr "https://t.me/bsbnewsru"
+
+#: source/telegram/command/help/main.py:47
+msgid ""
+"Bug reports, feedback, and contact with the author in [Telegram support "
+"group]({})."
+msgstr ""
+"Сообщить об ошибке, предложить улучшения и получить помощь от "
+"разработчиков бота можно в [этой группе Telegram]({})."
+
+#: source/telegram/command/help/org.py:6
+msgid ""
+"When you create or join the company, the /start command will display root"
+" menu for company employees."
+msgstr ""
+"Когда вы создадите компанию или присоединитесь к существующей компании, "
+"команда /start будет показывать корневое меню для сотрудников компании."
+
+#: source/telegram/command/help/org.py:11
+msgid "Contents of this menu depend on your roles in the company."
+msgstr "Содержание этого меню зависит от ваших полномочий в компании."
+
+#: source/telegram/command/help/org.py:14
+msgid "Available for the owner of the company only."
+msgstr "Доступно только для владельца компании."
+
+#: source/telegram/command/help/org.py:16
+msgid "The title, language, time zone, logging mode for the company."
+msgstr "Название, язык, часовой пояс и режим протоколирования для компании."
+
+#: source/telegram/command/help/org.py:18
+msgid "Also, there is an option for removing of the company."
+msgstr "А также возможность удаления компании."
+
+#: source/telegram/command/help/org.py:21
+#: source/telegram/command/help/org.py:26
+msgid "Available for the owner and 'admins'."
+msgstr "Доступно для владельца компании и сотрудников с ролью 'администратор'."
+
+#: source/telegram/command/help/org.py:23
+msgid "Manage employees rights."
+msgstr "Управление полномочиями сотрудников."
+
+#: source/telegram/command/help/org.py:28
+msgid ""
+"Downloads customer list, list of completed orders and current schedule as"
+" csv files for analyzing."
+msgstr ""
+"Скачивание списка клиентов, списка завершенных заказов и текущего "
+"расписания в виде файлов формата CSV для анализа."
+
+#: source/telegram/command/help/org.py:33
+#: source/telegram/command/help/org.py:40
+msgid "Available for 'managers'."
+msgstr "Доступно для сотрудников с ролью 'менеджер'."
+
+#: source/telegram/command/help/org.py:35
+msgid "Managing list of clients of the company and their history of orders."
+msgstr "Управление списком клиентов компании и историей их заказов."
+
+#: source/telegram/command/help/org.py:37
+msgid "You can create, change and remove customers inside this menu."
+msgstr "Вы можете создавать, изменять и удалять клиентов в этом меню."
+
+#: source/telegram/command/help/org.py:42
+msgid "Managing list of orders in the current schedule."
+msgstr "Управление заказами в текущем расписании."
+
+#: source/telegram/command/help/org.py:44
+msgid "You can create, change, finish and cancel orders inside this menu."
+msgstr "Вы можете создавать, изменять, завершать и отменять заказы в этом меню."
+
+#: source/telegram/command/help/org.py:47
+msgid "Available for 'engineers'."
+msgstr "Доступно для сотрудников с ролью 'технолог'."
+
+#: source/telegram/command/help/org.py:49
+msgid "Managing list of goods of the company."
+msgstr "Управление списком товаров и услуг компании."
+
+#: source/telegram/command/help/org.py:52
+msgid "Available for 'workers'."
+msgstr "Доступно для сотрудников с ролью 'сотрудник'."
+
+#: source/telegram/command/help/org.py:54
+msgid ""
+"View current schedule in read-only mode, without costs and contacts of "
+"customers."
+msgstr ""
+"Просмотр текущего расписания без возможности внесения изменений и без "
+"доступа к данным о стоимости заказов и контактным данным клиентов."
+
+#: source/telegram/command/help/org.py:57
+msgid "Available for 'cashiers'."
+msgstr "Доступно для сотрудников с ролью 'кассир'."
+
+#: source/telegram/command/help/org.py:59
+msgid "Managing cash desk operation."
+msgstr "Управление операциями с кассой."
+
+#: source/telegram/command/help/org.py:61 source/telegram/menu/__init__.py:166
+#: source/telegram/menu/__init__.py:175
+msgid "The /help command will tell more."
+msgstr "Команда /help расскажет больше."
+
+#: source/telegram/command/help/voice.py:3
+msgid ""
+"On microphone equipped devices you can use voice input in any case when "
+"you need typing."
+msgstr ""
+"На устройствах, оборудованных микрофоном, вы можете использовать "
+"голосовой ввод везде, где нужно печатать на клавиатуре."
+
+#: source/telegram/command/help/voice.py:5
+msgid "It can be used for input numbers, text and as search requests."
+msgstr "Это можно использовать при вводе чисел, текста и при поисковых запросах."
+
+#: source/telegram/command/help/voice.py:7
+msgid "To use voice input, press and hold screen button with microphone picture."
+msgstr ""
+"Для использования голосового ввода, нажмите и удерживайте экранную кнопку"
+" с изображением микрофона."
+
+#: source/telegram/command/help/voice.py:9
+msgid "Say your phrase and release the button."
+msgstr "Произнесите нужную фразу и отпустите кнопку."
+
+#: source/telegram/command/help/voice.py:11
+msgid "Voice input not supported when choosing from the menu."
+msgstr "Голосовой ввод не работает при выборе из меню."
+
+#: source/telegram/command/start/group.py:21
+#: source/telegram/command/start/group.py:39
+msgid "This is a chat for company '{}'."
+msgstr "Это чат компании '{}'."
+
+#: source/telegram/command/start/group.py:23
+msgid ""
+"If you want change chat for your company, then add @{} to another group "
+"and send /start command to that group."
+msgstr ""
+"Если вы хотите изменить группу для чата вашей компании, добавьте @{} к "
+"другой группе и пошлите туда команду /start"
+
+#: source/telegram/command/start/group.py:32
+msgid "This group was set as chat for company '{}'."
+msgstr "Эта группа настроена как чат компании '{}'."
+
+#: source/telegram/command/start/group.py:34
+msgid "Members can send /start command here to join the company."
+msgstr ""
+"Участники могут послать сюда команду /start чтобы присоединиться к "
+"компании."
+
+#: source/telegram/command/start/group.py:46
+#: source/telegram/command/start/private/employee.py:72
+msgid "You are already participated in this company."
+msgstr "Вы уже состоите в этой компании."
+
+#: source/telegram/command/start/group.py:48
+msgid "All actions are available in private chat @{}"
+msgstr "Все действия доступны в приватном чате @{}"
+
+#: source/telegram/command/start/group.py:56
+msgid "To join this company, please leave your current company '{}' first."
+msgstr ""
+"Чтобы присоединиться к этой компании, сначала покиньте вашу текущую "
+"компанию '{}'."
+
+#: source/telegram/command/start/group.py:60
+msgid "It can be done by sending /stop command to private @{}"
+msgstr "Это можно сделать, отправив команду /stop в приватный чат @{}"
+
+#: source/telegram/command/start/group.py:64
+#: source/telegram/command/start/group.py:94
+msgid "This group not linked to any company."
+msgstr "Эта группа не связана ни с одной компанией."
+
+#: source/telegram/command/start/group.py:75
+#: source/telegram/command/start/private/employee.py:42
+msgid "You are joined to company '{}'."
+msgstr "Вы присоединились к компании '{}'."
+
+#: source/telegram/command/start/group.py:77
+msgid "Use /start command to start."
+msgstr "Используйте команду /start для начала работы."
+
+#: source/telegram/command/start/group.py:82
+#: source/telegram/command/start/private/employee.py:45
+msgid "A new employee joined the company."
+msgstr "К компании присоединился новый сотрудник."
+
+#: source/telegram/command/start/group.py:85
+msgid "{} joined to company '{}'"
+msgstr "{} присоединился к компании '{}'"
+
+#: source/telegram/command/start/group.py:87
+msgid "Please, check for available actions in private chat @{}"
+msgstr "Возможные действия доступны в приватном чате @{}"
+
+#: source/telegram/command/start/group.py:96
+msgid ""
+"Owner of the company can send /start command here to link this group as "
+"company chat."
+msgstr ""
+"Владелец компании может отправить сюда команду /start чтобы настроить эту"
+" группу как чат компании."
+
+#: source/telegram/command/start/private/__init__.py:70
+msgid "At the moment you don't have any rights in company '{}'."
+msgstr "На данный момент у вас нет никаких полномочий в компании '{}'."
+
+#: source/telegram/command/start/private/__init__.py:72
+msgid ""
+"When company administrators give you rights, I will notify you in this "
+"chat."
+msgstr ""
+"Когда администраторы компании дадут вам полномочия, я оповещу вас в этом "
+"чате."
+
+#: source/telegram/command/start/private/__init__.py:78
+msgid "You are an owner of company '{}' and have next rights:"
+msgstr "Вы владелец компании '{}' и имеете следующие права:"
+
+#: source/telegram/command/start/private/__init__.py:83
+msgid "You are an employee in company '{}' and have next rights:"
+msgstr "Вы сотрудник компании '{}' и имеете следующие права:"
+
+#: source/telegram/command/start/private/__init__.py:111
+#: source/telegram/command/start/private/employee.py:30
+#: source/telegram/command/start/private/supplier.py:35
+msgid "Select language for this conversation."
+msgstr "Выберите язык для этого диалога."
+
+#: source/telegram/command/start/private/__init__.py:120
+msgid "Your company '{}' was created."
+msgstr "Ваша компания '{}' создана."
+
+#: source/telegram/command/start/private/__init__.py:122
+msgid "You can change this name later, in 'Company settings' menu."
+msgstr "Вы можете изменить это имя позже через меню 'Настройки компании'."
+
+#: source/telegram/command/start/private/employee.py:57
+#: source/telegram/command/start/private/supplier.py:77
+#: source/telegram/event/new_chat_member.py:76
+#: source/telegram/menu/__init__.py:155
+msgid "Hi {}!"
+msgstr "Привет {}!"
+
+#: source/telegram/command/start/private/employee.py:59
+msgid "Are you wish to join the company '{}'?"
+msgstr "Вы хотите присоединиться к компании '{}'? "
+
+#: source/telegram/command/start/private/employee.py:74
+#: source/telegram/menu/mnu_company/delete.py:16
+#: source/telegram/menu/mnu_company/delete.py:28
+msgid "Use /start command to continue."
+msgstr "Для продолжения используйте команду /start"
+
+#: source/telegram/command/start/private/employee.py:79
+msgid "To join '{}' company, please dismiss your current company '{}' first."
+msgstr ""
+"Чтобы вступить в компанию '{}', сначала распустите вашу текущую компанию "
+"'{}'."
+
+#: source/telegram/command/start/private/employee.py:83
+msgid "It can be done in 'Company settings' menu."
+msgstr "Это можно сделать в меню 'Настройки компании'."
+
+#: source/telegram/command/start/private/employee.py:85
+msgid "Use /start command to return to the menu of your current company."
+msgstr "Используйте команду /start для возврата в меню вашей текущей компании."
+
+#: source/telegram/command/start/private/employee.py:89
+msgid "To join '{}' company, please leave your current company '{}' first."
+msgstr ""
+"Чтобы вступить в компанию '{}', сначала покиньте вашу текущую компанию "
+"'{}'."
+
+#: source/telegram/command/start/private/employee.py:93
+msgid "It can be done by sending /stop command here."
+msgstr "Это можно сделать, отправив сюда команду /stop"
+
+#: source/telegram/command/start/private/employee.py:95
+msgid "Or use /start command to return to company menu."
+msgstr "Или используйте команду /start для возврата в меню компании."
+
+#: source/telegram/command/start/private/partnership.py:31
+msgid "Referral program"
+msgstr "Партнерская программа"
+
+#: source/telegram/command/start/private/partnership.py:33
+msgid "User '{}' joined to {} with your code."
+msgstr "Пользователь '{}' присоединился к {} с вашим кодом."
+
+#: source/telegram/command/start/private/partnership.py:36
+msgid "Payload"
+msgstr "Доп.данные"
+
+#: source/telegram/command/start/private/supplier.py:58
+msgid "Telegram user '{}' joined to customer '{}'."
+msgstr "Пользователь Telegram '{}' подключился как заказчик '{}'."
+
+#: source/telegram/command/start/private/supplier.py:79
+msgid "You can make orders to company from this Telegram bot."
+msgstr "Вы можете делать заказы у компании из этого бота Telegram."
+
+#: source/telegram/command/start/private/supplier.py:81
+msgid "The company can notify you about sales and events in this chat."
+msgstr "Компания сможет оповещать вас о своих акциях и событиях в этом чате."
+
+#: source/telegram/command/start/private/supplier.py:83
+msgid "Are you wish to join the company '{}' as customer '{}'?"
+msgstr "Вы хотите подключиться к компании '{}' как заказчик '{}'?"
+
+#: source/telegram/event/left_chat_member.py:29
+msgid "I'm removed from chat '{}'."
+msgstr "Я удален из чата '{}'."
+
+#: source/telegram/event/left_chat_member.py:31
+msgid "Company chat now set to this private."
+msgstr "Чатом компании теперь является этот приватный чат."
+
+#: source/telegram/event/left_chat_member.py:33
+msgid "New employees cannot join the company."
+msgstr "Новые сотрудники не могут вступать в компанию."
+
+#: source/telegram/event/left_chat_member.py:41
+msgid "'{}' is a member of the company '{}'"
+msgstr "'{}' сотрудник компании '{}'"
+
+#: source/telegram/event/left_chat_member.py:43
+msgid "'{}' did not participate in the company '{}'."
+msgstr "'{}' не состоял в компании '{}'."
+
+#: source/telegram/event/new_chat_member.py:8
+msgid ""
+"Owner of the company can set this group as company chat by sending /start"
+" command here."
+msgstr ""
+"Владелец компании может отправить сюда команду /start для настройки этой "
+"группы как чата компании."
+
+#: source/telegram/event/new_chat_member.py:14
+msgid "Hi, everyone!"
+msgstr "Привет всем!"
+
+#: source/telegram/event/new_chat_member.py:16
+msgid "This chat can be used for joining to company '{}'."
+msgstr "В этом чате можно вступить в компанию '{}'."
+
+#: source/telegram/event/new_chat_member.py:18
+msgid "Just send /start command to this chat to join."
+msgstr "Просто отправьте команду /start в этот чат для вступления."
+
+#: source/telegram/event/new_chat_member.py:24
+msgid ""
+"Owner can set this group as chat for company '{}' by sending /start "
+"command here."
+msgstr ""
+"Владелец может настроить эту группу как чат компании '{}' отправив сюда "
+"команду /start"
+
+#: source/telegram/event/new_chat_member.py:65
+msgid "Company change chat group or deleted."
+msgstr "Компания сменила групповой чат или была удалена владельцем."
+
+#: source/telegram/event/new_chat_member.py:78
+msgid "Use /start command to join company '{}'."
+msgstr "Используйте команду /start для присоединения к компании '{}'."
+
+#: source/telegram/menu/__init__.py:11
+msgid "Company settings"
+msgstr "Настройки компании"
+
+#: source/telegram/menu/__init__.py:12
+msgid "Employees"
+msgstr "Сотрудники"
+
+#: source/telegram/menu/__init__.py:13
+msgid "Goods and services"
+msgstr "Товары и услуги"
+
+#: source/telegram/menu/__init__.py:14
+msgid "Clients"
+msgstr "Клиенты"
+
+#: source/telegram/menu/__init__.py:15
+msgid "Calendar"
+msgstr "Календарь"
+
+#: source/telegram/menu/__init__.py:16
+#: source/telegram/menu/mnu_downloads/__init__.py:16
+msgid "Cashbox"
+msgstr "Касса"
+
+#: source/telegram/menu/__init__.py:17
+msgid "Data downloads"
+msgstr "Выгрузка данных"
+
+#: source/telegram/menu/__init__.py:18
+#: source/telegram/menu/mnu_client/item.py:12
+#: source/telegram/menu/mnu_downloads/__init__.py:14
+msgid "Orders"
+msgstr "Заказы"
+
+#: source/telegram/menu/__init__.py:19
+msgid "Help"
+msgstr "Помощь"
+
+#: source/telegram/menu/__init__.py:20
+msgid "Suppliers"
+msgstr "Поставщики"
+
+#: source/telegram/menu/__init__.py:21
+msgid "Create your company"
+msgstr "Создать свою компанию"
+
+#: source/telegram/menu/__init__.py:25
+msgid "Customer orders"
+msgstr "Заказы клиента"
+
+#: source/telegram/menu/__init__.py:26
+#: source/telegram/menu/mnu_order/__init__.py:51
+msgid "To schedule"
+msgstr "В расписание"
+
+#: source/telegram/menu/__init__.py:79
+msgid "Skip"
+msgstr "Пропустить"
+
+#: source/telegram/menu/__init__.py:83 source/telegram/menu/__init__.py:100
+#: source/telegram/menu/mnu_employees/__init__.py:13
+#: source/telegram/menu/mnu_suppliers/history.py:26
+#: source/telegram/menu/schedule.py:326
+msgid "Back"
+msgstr "Назад"
+
+#: source/telegram/menu/__init__.py:96 source/telegram/menu/__init__.py:208
+#: source/telegram/menu/mnu_cashbox/__init__.py:29
+#: source/telegram/menu/mnu_suppliers/order/__init__.py:23
+#: source/telegram/menu/mnu_suppliers/order/description.py:17
+msgid "Select action from menu"
+msgstr "Выберите действие из меню"
+
+#: source/telegram/menu/__init__.py:135
+msgid "Need a integer number value from {} to {}."
+msgstr "Нужно целое число от {} до {}."
+
+#: source/telegram/menu/__init__.py:164
+msgid "This bot allowing ordering goods and services from your suppliers."
+msgstr "Этот бот позволяет заказывать товары и услуги у ваших поставщиков."
+
+#: source/telegram/menu/__init__.py:168
+msgid ""
+"Also, you can create your own company and distribute goods and services "
+"to your customers."
+msgstr ""
+"А также вы можете создать собственную компанию и распространять товары и "
+"услуги для ваших клиентов."
+
+#: source/telegram/menu/__init__.py:177
+msgid "To start, you need to create your company."
+msgstr "Для начала вам нужно создать вашу компанию."
+
+#: source/telegram/menu/goods.py:13
+msgid "Choose from catalog"
+msgstr "Выбор из каталога"
+
+#: source/telegram/menu/goods.py:14
+msgid "Search"
+msgstr "Поиск"
+
+#: source/telegram/menu/goods.py:28
+msgid "Root folder."
+msgstr "Корневой каталог."
+
+#: source/telegram/menu/goods.py:30
+msgid "Folder '{}'."
+msgstr "Каталог '{}'."
+
+#: source/telegram/menu/goods.py:41 source/telegram/menu/goods.py:59
+msgid "Please, select goods from menu or Cancel."
+msgstr "Выберите услугу из меню или Отказ."
+
+#: source/telegram/menu/goods.py:83
+msgid "Enter the goods data ({} chars minimum) to search or Cancel."
+msgstr "Введите данные услуги (минимум {} символа) для поиска или Отказ."
+
+#: source/telegram/menu/goods.py:94 source/telegram/menu/mnu_client/find.py:69
+msgid "String to search is too short."
+msgstr "Строка для поиска слишком короткая."
+
+#: source/telegram/menu/goods.py:101 source/telegram/menu/mnu_client/find.py:82
+msgid "Nothing was found for '{}'."
+msgstr "Ничего не найдено для '{}'."
+
+#: source/telegram/menu/goods.py:107 source/telegram/menu/mnu_client/find.py:88
+msgid "Too many search results for '{}'."
+msgstr "Слишком много результатов поиска для '{}'."
+
+#: source/telegram/menu/goods.py:109 source/telegram/menu/mnu_client/find.py:90
+msgid "Try more detailed request."
+msgstr "Попробуйте более точный запрос."
+
+#: source/telegram/menu/goods.py:117
+msgid "Please, choose a goods from the list, or Cancel."
+msgstr "Выберите услугу из списка или Отказ."
+
+#: source/telegram/menu/mnu_client/order.py:34
+#: source/telegram/menu/schedule.py:22
+msgid "New order"
+msgstr "Новый заказ"
+
+#: source/telegram/menu/schedule.py:160
+msgid "Please, choose the day for planned start of the work or Cancel."
+msgstr "Выберите день для планируемого начала работ или Отказ."
+
+#: source/telegram/menu/schedule.py:166
+msgid "Calendar start moved to {}."
+msgstr "Начало календаря установлено в {}."
+
+#: source/telegram/menu/mnu_order/edit/plan.py:119
+#: source/telegram/menu/schedule.py:206
+msgid "Today"
+msgstr "Сегодня"
+
+#: source/telegram/menu/schedule.py:230
+msgid "All-day: {}"
+msgstr "Весь день"
+
+#: source/telegram/menu/schedule.py:250
+msgid "Started: {}"
+msgstr "Начало: {}"
+
+#: source/telegram/menu/schedule.py:261
+msgid "Finished: {}"
+msgstr "Завершение: {}"
+
+#: source/telegram/menu/schedule.py:278
+msgid "start"
+msgstr "начало"
+
+#: source/telegram/menu/schedule.py:282
+msgid "finish"
+msgstr "завершение"
+
+#: source/telegram/menu/schedule.py:291
+msgid "No orders processing at this day."
+msgstr "В этот день нет работы с заказами."
+
+#: source/telegram/menu/schedule.py:294
+msgid "Schedule at {}"
+msgstr "Расписание на {}"
+
+#: source/telegram/menu/schedule.py:344 source/telegram/menu/tasks.py:46
+msgid "At the moment, company '{}' don't have planned orders."
+msgstr "Сейчас у компании '{}' нет запланированных заказов."
+
+#: source/telegram/menu/schedule.py:347
+msgid "All planned orders for company '{}'."
+msgstr "Все запланированные заказы компании '{}'."
+
+#: source/telegram/menu/schedule.py:349
+msgid "Planned orders: {} total cost: {}"
+msgstr "Запланированные заказы: {} общая стоимость: {}"
+
+#: source/telegram/menu/schedule.py:351
+msgid "Tap on the order button to undo/edit/finish order."
+msgstr "Нажмите на кнопку заказа, чтобы отменить / изменить / завершить заказ."
+
+#: source/telegram/menu/schedule.py:362
+msgid "Please, choose the day for new order or Cancel."
+msgstr "Выберите день для нового заказа или Отказ."
+
+#: source/telegram/menu/tasks.py:14
+msgid "Now"
+msgstr "Сейчас"
+
+#: source/telegram/menu/tasks.py:16
+msgid "Refresh"
+msgstr "Обновить"
+
+#: source/telegram/menu/tasks.py:49
+msgid "Planned orders for company '{}': {}"
+msgstr "Для компании '{}' запланировано заказов: {}"
+
+#: source/telegram/menu/tasks.py:61
+msgid "Please, choose the day for filtering or Cancel."
+msgstr "Выберите день для просмотра или Отказ."
+
+#: source/telegram/menu/mnu_cashbox/__init__.py:15
+msgid "Income"
+msgstr "Приход"
+
+#: source/telegram/menu/mnu_cashbox/__init__.py:16
+msgid "Expense"
+msgstr "Расход"
+
+#: source/telegram/menu/mnu_cashbox/__init__.py:23
+msgid "Latest cashdesk operations"
+msgstr "Последние кассовые операции"
+
+#: source/telegram/menu/mnu_cashbox/__init__.py:27
+msgid "Current cash of company '{}': {:.2f}"
+msgstr "Текущий остаток компании '{}': {:.2f}"
+
+#: source/telegram/menu/mnu_cashbox/__init__.py:51
+msgid "Are you need to link this operation to one of the current orders?"
+msgstr "Хотите связать эту операцию с одним из текущих заказов?"
+
+#: source/telegram/menu/mnu_cashbox/__init__.py:59
+msgid "The request was passed to processing."
+msgstr "Запрос передан на обработку."
+
+#: source/telegram/menu/mnu_cashbox/__init__.py:64
+msgid ""
+"Are all tasks for this order was complete and it can be removed from the "
+"schedule?"
+msgstr "Все работы по этому заказу закончены и его можно убрать из расписания?"
+
+#: source/telegram/menu/mnu_cashbox/__init__.py:98
+msgid "Are you wish to link operation to this order?"
+msgstr "Привязать кассовую операцию к этому заказу?"
+
+#: source/telegram/menu/mnu_cashbox/__init__.py:107
+msgid "Select order to link from the list."
+msgstr "Выберите заказ для привязки из списка."
+
+#: source/telegram/menu/mnu_cashbox/__init__.py:126
+msgid "Need a positive nonzero number value."
+msgstr "Нужно ввести число больше нуля."
+
+#: source/telegram/menu/mnu_cashbox/__init__.py:133
+msgid "Enter a description of this transaction."
+msgstr "Введите примечание к этой транзакции."
+
+#: source/telegram/menu/mnu_cashbox/__init__.py:147
+msgid "Please, enter the amount of income operation."
+msgstr "Введите сумму прихода."
+
+#: source/telegram/menu/mnu_cashbox/__init__.py:153
+msgid "Please, enter the amount of expense operation."
+msgstr "Введите сумму расхода."
+
+#: source/telegram/menu/mnu_client/__init__.py:8
+msgid "New customer"
+msgstr "Новый клиент"
+
+#: source/telegram/menu/mnu_client/__init__.py:9
+msgid "Search customer"
+msgstr "Поиск клиента"
+
+#: source/telegram/menu/mnu_client/__init__.py:10
+msgid "Dispatch"
+msgstr "Рассылка"
+
+#: source/telegram/menu/mnu_client/dispatch.py:10
+msgid "Send message"
+msgstr "Послать сообщение"
+
+#: source/telegram/menu/mnu_client/dispatch.py:16
+msgid "Please, enter the content of the message for sending to your customers."
+msgstr "Введите содержание сообщения для рассылки вашим клиентам."
+
+#: source/telegram/menu/mnu_client/dispatch.py:22
+msgid "Your message was dispatched to your customers."
+msgstr "Ваше сообщение разослано вашим клиентам."
+
+#: source/telegram/menu/mnu_client/dispatch.py:33
+msgid "Number of registered customer Telegram accounts for your company: {}"
+msgstr "Количество зарегистрированных аккаунтов Telegram ваших клиентов: {}"
+
+#: source/telegram/menu/mnu_client/dispatch.py:35
+msgid "You can send them all a message."
+msgstr "Вы можете послать им всем сообщение."
+
+#: source/telegram/menu/mnu_client/dispatch.py:39
+msgid ""
+"At the moment your company has not a registered Telegram accounts of "
+"customers."
+msgstr ""
+"В данный момент у вашей компании нет зарегистрированных аккаунтов "
+"Telegram клиентов."
+
+#: source/telegram/menu/mnu_client/dispatch.py:41
+msgid ""
+"Your customers can connect their Telegram accounts to your company via an"
+" invitation link."
+msgstr ""
+"Ваши заказчики могут подключить свои аккаунты Telegram к вашей компании "
+"через ссылку-приглашение."
+
+#: source/telegram/menu/mnu_client/dispatch.py:43
+msgid ""
+"After that, they will be able to make orders to you with Telegram, and "
+"you can send them messages from this section."
+msgstr ""
+"После этого они смогут делать заказы у вас через Telegram, и вы сможете "
+"посылать им сообщения из этого раздела."
+
+#: source/telegram/menu/mnu_client/dispatch.py:48
+msgid "This invitation link is available in the section of the selected customer."
+msgstr "Эта пригласительная ссылка доступна в меню выбранного заказчика."
+
+#: source/telegram/menu/mnu_client/find.py:14
+msgid "By card ID"
+msgstr "По идентификатору"
+
+#: source/telegram/menu/mnu_client/find.py:15
+msgid "By contacts info"
+msgstr "По контактным данным"
+
+#: source/telegram/menu/mnu_client/find.py:20
+msgid "Search for customer."
+msgstr "Поиск клиента."
+
+#: source/telegram/menu/mnu_client/find.py:26
+msgid "Enter the card ID to search or Cancel."
+msgstr "Введите идентификатор для поиска или Отказ."
+
+#: source/telegram/menu/mnu_client/find.py:39
+msgid "Customer with card ID '{}' not found."
+msgstr "Клиент с идентификатором '{}' не найден."
+
+#: source/telegram/menu/mnu_client/find.py:53
+msgid "Enter the contacts data ({} chars minimum) to search or Cancel."
+msgstr "Введите контактные данные (минимум {} символов) для поиска или Отказ."
+
+#: source/telegram/menu/mnu_client/find.py:97
+#: source/telegram/menu/mnu_client/find.py:113
+msgid "Please, choose a customer from the list, or Cancel."
+msgstr "Выберите клиента из списка или Отказ."
+
+#: source/telegram/menu/mnu_client/item.py:13
+msgid "Edit data"
+msgstr "Изменить данные"
+
+#: source/telegram/menu/mnu_client/item.py:25
+msgid "No card"
+msgstr "Нет идентификатора."
+
+#: source/telegram/menu/mnu_client/edit/__init__.py:9
+#: source/telegram/menu/mnu_client/item.py:27
+msgid "Card ID"
+msgstr "Идентификатор"
+
+#: source/telegram/menu/mnu_client/edit/__init__.py:8
+#: source/telegram/menu/mnu_client/item.py:31
+msgid "Contact info"
+msgstr "Контактные данные"
+
+#: source/telegram/menu/mnu_client/item.py:32
+msgid "Status"
+msgstr "Статус"
+
+#: source/telegram/menu/mnu_client/edit/public.py:21
+#: source/telegram/menu/mnu_client/item.py:32
+msgid "public"
+msgstr "публичный"
+
+#: source/telegram/menu/mnu_client/edit/public.py:21
+#: source/telegram/menu/mnu_client/item.py:32
+msgid "not public"
+msgstr "не публичный"
+
+#: source/telegram/menu/mnu_client/edit/accounts.py:38
+#: source/telegram/menu/mnu_client/item.py:33
+msgid ""
+"Telegram users can make orders for this customer if they follow this "
+"invitation link"
+msgstr ""
+"Пользователи Telegram смогут делать заказы от лица этого заказчика, если "
+"перейдут по следующей ссылке-приглашению"
+
+#: source/telegram/menu/mnu_client/item.py:36
+msgid ""
+"After that appropriate Telegram account appears in the 'Edit data' -> "
+"'Accounts' menu, and you can set his name or remove it from the list."
+msgstr ""
+"После этого соответствующий аккаунт Telegram появится в меню 'Изменить' "
+"-> 'Аккаунты'. Там вы сможете изменить имя аккаунта или удалить аккаунт "
+"из списка."
+
+#: source/telegram/menu/mnu_client/new.py:14
+msgid "Please, enter the contact information for the new customer or Cancel."
+msgstr "Введите контактные данные нового клиента или Отказ."
+
+#: source/telegram/menu/mnu_client/new.py:16
+msgid ""
+"Data in an arbitrary form, by which you will search the client in the "
+"database."
+msgstr ""
+"Данные в произвольной форме, по которым вы будете искать клиента в базе "
+"данных."
+
+#: source/telegram/menu/mnu_client/new.py:18
+msgid "For example name, phone, email, nickname in the social network, etc."
+msgstr "Например, имя, телефон, email, псевдоним в соцсети и т.п."
+
+#: source/telegram/menu/mnu_client/edit/contacts.py:25
+#: source/telegram/menu/mnu_client/edit/contacts.py:53
+#: source/telegram/menu/mnu_client/new.py:20
+msgid ""
+"The phone number in international format (starting with +) can be "
+"clickable on mobile devices."
+msgstr ""
+"Номер телефона в международном формате (начиная с +7) на мобильных "
+"устройствах можно вызывать кликом."
+
+#: source/telegram/menu/mnu_client/new.py:37
+msgid "New customer: '{}'"
+msgstr "Новый клиент: '{}'"
+
+#: source/telegram/menu/mnu_client/new.py:42
+msgid "New customer '{}' was created."
+msgstr "Новый клиент '{}' создан."
+
+#: source/telegram/menu/mnu_client/new.py:44
+msgid "Enter card ID for this customer (optional)."
+msgstr "Введите идентификатор для этого клиента (необязательно)."
+
+#: source/telegram/menu/mnu_client/new.py:53
+msgid "Send me an image, associated with customer '{}' (optional)."
+msgstr "Пошлите мне изображение для клиента '{}' (необязательно)."
+
+#: source/telegram/menu/mnu_client/new.py:69
+msgid "Card ID '{}' in use."
+msgstr "Идентификатор '{}' уже используется."
+
+#: source/telegram/menu/mnu_client/new.py:73
+msgid "Customer '{}' card number set: '{}'"
+msgstr "Клиенту '{}' присвоен идентификатор: '{}'"
+
+#: source/telegram/menu/mnu_client/edit/photo.py:67
+#: source/telegram/menu/mnu_client/new.py:91
+msgid "Upload image for customer '{}'."
+msgstr "Загрузка изображения для клиента '{}'."
+
+#: source/telegram/menu/mnu_client/order.py:40
+#: source/telegram/menu/mnu_order/__init__.py:50
+msgid "Customer menu"
+msgstr "Меню клиента"
+
+#: source/telegram/menu/mnu_client/order.py:46
+msgid "List of orders for '{}'."
+msgstr "Список заказов для '{}'."
+
+#: source/telegram/menu/mnu_client/order.py:48
+msgid "Select order from menu, or create new or Cancel."
+msgstr "Выберите заказ из меню, или создайте новый, или Отказ."
+
+#: source/telegram/menu/mnu_client/edit/__init__.py:10
+msgid "Photo"
+msgstr "Фото"
+
+#: source/telegram/menu/mnu_client/edit/__init__.py:11
+msgid "Public"
+msgstr "Публичный"
+
+#: source/telegram/menu/mnu_client/edit/__init__.py:12
+msgid "Delete"
+msgstr "Удалить"
+
+#: source/telegram/menu/mnu_client/edit/__init__.py:13
+#: source/telegram/menu/mnu_employees/select.py:14
+msgid "Update invitation"
+msgstr "Обновить приглашение"
+
+#: source/telegram/menu/mnu_client/edit/__init__.py:14
+msgid "Accounts"
+msgstr "Аккаунты"
+
+#: source/telegram/menu/mnu_client/edit/__init__.py:21
+msgid "New invitation link for the customer was generated."
+msgstr "Новая ссылка-приглашение для заказчика создана."
+
+#: source/telegram/menu/mnu_client/edit/__init__.py:23
+#: source/telegram/menu/mnu_employees/select.py:51
+msgid "The previous link has become invalid."
+msgstr "Предыдущая ссылка стала недействительной."
+
+#: source/telegram/menu/mnu_client/edit/__init__.py:30
+msgid "Edit customer data."
+msgstr "Изменение данных клиента."
+
+#: source/telegram/menu/mnu_client/edit/accounts.py:12
+#: source/telegram/menu/mnu_suppliers/item.py:7
+msgid "Rename"
+msgstr "Переименовать"
+
+#: source/telegram/menu/mnu_client/edit/accounts.py:13
+#: source/telegram/menu/mnu_client/edit/cardid.py:10
+#: source/telegram/menu/mnu_client/edit/photo.py:10
+#: source/telegram/menu/mnu_company/__init__.py:14
+#: source/telegram/menu/mnu_suppliers/item.py:8
+#: source/telegram/menu/mnu_suppliers/order/__init__.py:11
+msgid "Remove"
+msgstr "Удалить"
+
+#: source/telegram/menu/mnu_client/edit/accounts.py:25
+msgid "Select account from the list for rename or delete."
+msgstr "Выберите аккаунт из списка для переименования или удаления."
+
+#: source/telegram/menu/mnu_client/edit/accounts.py:28
+msgid "This customer has not any associated Telegram accounts."
+msgstr "У этого заказчика нет связанных аккаунтов Telegram."
+
+#: source/telegram/menu/mnu_client/edit/accounts.py:31
+msgid "This customer has more than {} associated Telegram accounts."
+msgstr "У этого заказчика более {} связанных аккаунтов Telegram."
+
+#: source/telegram/menu/mnu_client/edit/accounts.py:33
+msgid "This customer has associated Telegram accounts: {}."
+msgstr "У зтого заказчика есть следующие связанные аккаунты Telegram: {}."
+
+#: source/telegram/menu/mnu_client/edit/accounts.py:48
+msgid "Telegram account [{}](tg://user?id={}) is associated with customer '{}'."
+msgstr "Аккаунт Telegram [{}](tg://user?id={}) связан с заказчиком '{}'."
+
+#: source/telegram/menu/mnu_client/edit/accounts.py:77
+msgid "Current account name is '{}'."
+msgstr "Текущее имя аккаунта: '{}'."
+
+#: source/telegram/menu/mnu_client/edit/accounts.py:79
+#: source/telegram/menu/mnu_suppliers/rename.py:12
+msgid "Enter new name or Cancel."
+msgstr "Введите новое имя или Отказ."
+
+#: source/telegram/menu/mnu_client/edit/accounts.py:95
+msgid "Rename customer '{}' account '{}' -> '{}'."
+msgstr "Переименование заказчик '{}' аккаунт '{}' -> '{}'."
+
+#: source/telegram/menu/mnu_client/edit/accounts.py:97
+msgid "Account was renamed."
+msgstr "Аккаунт переименован."
+
+#: source/telegram/menu/mnu_client/edit/accounts.py:103
+msgid "Are you wish to disconnect Telegram user '{}' from customer '{}'?"
+msgstr "Вы хотите отключить аккаунт Telegram {} от заказчика '{}'?"
+
+#: source/telegram/menu/mnu_client/edit/accounts.py:113
+msgid "Account '{}' was disconnected from customer '{}'."
+msgstr "Аккаунт '{}' отключился от заказчика '{}'."
+
+#: source/telegram/menu/mnu_client/edit/accounts.py:117
+msgid "Account was removed."
+msgstr "Аккаунт удален."
+
+#: source/telegram/menu/mnu_client/edit/cardid.py:9
+#: source/telegram/menu/mnu_client/edit/photo.py:9
+msgid "Assign"
+msgstr "Назначить"
+
+#: source/telegram/menu/mnu_client/edit/cardid.py:14
+msgid "Currently, customer '{}' has not the card ID."
+msgstr "Сейчас клиент '{}' не имеет идентификатора."
+
+#: source/telegram/menu/mnu_client/edit/cardid.py:16
+msgid "Currently, customer '{}' has the card ID '{}'."
+msgstr "Сейчас клиент '{}' имеет идентификатор '{}'."
+
+#: source/telegram/menu/mnu_client/edit/cardid.py:28
+msgid "Are you sure that you need to remove the card ID from the client '{}'?"
+msgstr "Вы уверены, что нужно удалить идентификатор у клиента '{}'?"
+
+#: source/telegram/menu/mnu_client/edit/cardid.py:36
+msgid "Card ID was removed."
+msgstr "Идентификатор удален."
+
+#: source/telegram/menu/mnu_client/edit/cardid.py:38
+msgid "Remove card ID ({}) from customer '{}'"
+msgstr "Удален идентификатор ({}) у клиента '{}'"
+
+#: source/telegram/menu/mnu_client/edit/cardid.py:49
+msgid "Enter the new card ID for this customer or Cancel."
+msgstr "Введите новый идентификатор для этого клиента или Отказ."
+
+#: source/telegram/menu/mnu_client/edit/cardid.py:63
+msgid "Card ID '{}' in use for customer '{}'."
+msgstr "Идентификатор '{}' используется клиентом '{}'."
+
+#: source/telegram/menu/mnu_client/edit/cardid.py:65
+msgid "Change card ID from '{}' to '{}' for customer '{}'"
+msgstr "Изменен идентификатор с '{}' на '{}' для клиента '{}'"
+
+#: source/telegram/menu/mnu_client/edit/cardid.py:69
+msgid "Card ID was changed from '{}' to '{}'."
+msgstr "Идентификатор изменен с '{}' на '{}'."
+
+#: source/telegram/menu/mnu_client/edit/contacts.py:9
+#: source/telegram/menu/mnu_order/edit/name.py:11
+#: source/telegram/menu/mnu_suppliers/order/description.py:8
+msgid "Append"
+msgstr "Дополнить"
+
+#: source/telegram/menu/mnu_client/edit/contacts.py:10
+#: source/telegram/menu/mnu_order/edit/name.py:12
+#: source/telegram/menu/mnu_suppliers/order/description.py:9
+msgid "Replace"
+msgstr "Заменить"
+
+#: source/telegram/menu/mnu_client/edit/contacts.py:15
+msgid ""
+"Current contact info for a customer:\n"
+"{}"
+msgstr ""
+"Текущие контактные данные клиента:\n"
+"{}"
+
+#: source/telegram/menu/mnu_client/edit/contacts.py:23
+msgid "Enter new contact info or Cancel."
+msgstr "Введите новые контактные данные или Отказ."
+
+#: source/telegram/menu/mnu_client/edit/contacts.py:41
+msgid ""
+"Change customer\n"
+"{}\n"
+"to\n"
+"{}"
+msgstr ""
+"Изменены данные клиента\n"
+"{}\n"
+"на\n"
+"{}"
+
+#: source/telegram/menu/mnu_client/edit/contacts.py:43
+msgid "Contact info was changed."
+msgstr "Контактные данные изменены."
+
+#: source/telegram/menu/mnu_client/edit/contacts.py:51
+msgid "Enter additional contact info or Cancel."
+msgstr "Введите дополнительные контактные данные или Отказ."
+
+#: source/telegram/menu/mnu_client/edit/contacts.py:68
+msgid ""
+"Extend customer from\n"
+"{}\n"
+"to\n"
+"{}"
+msgstr ""
+"Дополнены данные клиента с\n"
+"{}\n"
+"до\n"
+"{}"
+
+#: source/telegram/menu/mnu_client/edit/contacts.py:70
+msgid "Contact info was extended."
+msgstr "Контактные данные дополнены."
+
+#: source/telegram/menu/mnu_client/edit/delete.py:9
+msgid "Are you sure to delete customer '{}' and his orders ({})?"
+msgstr "Уверены, что нужно удалить клиента '{}' и его заказы ({})?"
+
+#: source/telegram/menu/mnu_client/edit/delete.py:21
+msgid "Removed."
+msgstr "Удалено."
+
+#: source/telegram/menu/mnu_client/edit/delete.py:23
+msgid "Remove customer '{}' orders: {}"
+msgstr "Удален клиент '{}' заказов: {}"
+
+#: source/telegram/menu/mnu_client/edit/photo.py:18
+msgid "Customer '{}' don't have attached photo."
+msgstr "Клиент '{}' не имеет связанного с ним фото."
+
+#: source/telegram/menu/mnu_client/edit/photo.py:26
+msgid ""
+"Are you sure that you need to remove the attached photo from the client "
+"'{}'?"
+msgstr "Вы уверены, что нужно удалить фото у клиента '{}'?"
+
+#: source/telegram/menu/mnu_client/edit/photo.py:35
+msgid "Photo was removed."
+msgstr "Фото удалено."
+
+#: source/telegram/menu/mnu_client/edit/photo.py:37
+msgid "Remove image from customer '{}'"
+msgstr "Удалено изображение у клиента '{}'"
+
+#: source/telegram/menu/mnu_client/edit/photo.py:44
+msgid "Please, upload the new photo for this customer or Cancel."
+msgstr "Загрузите новое фото для этого клиента или Отказ."
+
+#: source/telegram/menu/mnu_client/edit/photo.py:65
+msgid "Photo was assigned."
+msgstr "Фото загружено."
+
+#: source/telegram/menu/mnu_client/edit/public.py:23
+msgid ""
+"Public clients are different from ordinary customers in that in the "
+"'Suppliers' section, the order history is displayed not as a whole for "
+"the customer, but separately for Telegram accounts connected to this "
+"customer."
+msgstr ""
+"Публичные клиенты отличаются от обычных клиентов тем, что в разделе "
+"'Поставщики' история заказов отображается не в целом по клиенту, а "
+"отдельно по аккаунтам Telegram, подключенным к этому клиенту"
+
+#: source/telegram/menu/mnu_client/edit/public.py:29
+msgid "Current status of customer '{}' is {}."
+msgstr "Текущий статус клиента '{}': {}."
+
+#: source/telegram/menu/mnu_client/edit/public.py:31
+msgid "Are you wish to set the status of customer to 'public'?"
+msgstr "Установить статус клиента в 'публичный'?"
+
+#: source/telegram/menu/mnu_company/__init__.py:10
+msgid "Title"
+msgstr "Название"
+
+#: source/telegram/menu/mnu_company/__init__.py:11
+#: source/telegram/menu/mnu_company/__init__.py:49
+msgid "Logging"
+msgstr "Протокол"
+
+#: source/telegram/menu/mnu_company/__init__.py:12
+msgid "Time zone"
+msgstr "Часовой пояс"
+
+#: source/telegram/menu/mnu_company/__init__.py:13
+#: source/telegram/menu/mnu_company/__init__.py:45
+msgid "Language"
+msgstr "Язык"
+
+#: source/telegram/menu/mnu_company/__init__.py:21
+msgid "disabled"
+msgstr "отключено"
+
+#: source/telegram/menu/mnu_company/__init__.py:29
+msgid "Location: not set, UTC time zone"
+msgstr "Местоположение: не задано, время по Гринвичу."
+
+#: source/telegram/menu/mnu_company/__init__.py:31
+msgid "Location: {}, time zone '{}'"
+msgstr "Местоположение: {}, часовой пояс '{}'"
+
+#: source/telegram/menu/mnu_company/__init__.py:43
+msgid "Company '{}'"
+msgstr "Компания '{}'"
+
+#: source/telegram/menu/mnu_company/__init__.py:47
+msgid "Telegram group"
+msgstr "Группа Telegram"
+
+#: source/telegram/menu/mnu_company/delete.py:14
+msgid "Company removed."
+msgstr "Компания удалена."
+
+#: source/telegram/menu/mnu_company/delete.py:24
+msgid "{} has deleted the company '{}'."
+msgstr "{} удалил компанию '{}'."
+
+#: source/telegram/menu/mnu_company/delete.py:26
+msgid "Thanks to everybody, you're free."
+msgstr "Всем спасибо, все свободны."
+
+#: source/telegram/menu/mnu_company/delete.py:38
+msgid ""
+"To remove company '{}', please enter this title (without quotes) or "
+"Cancel."
+msgstr "Для удаления компании '{}' введите ее название без кавычек или Отказ."
+
+#: source/telegram/menu/mnu_company/delete.py:60
+msgid "Are you sure to completely remove your company?"
+msgstr "Вы действительно хотите полностью удалить вашу компанию?"
+
+#: source/telegram/menu/mnu_company/language.py:12
+msgid "Current language of company '{}' is '{}'."
+msgstr "Текущим языком компании '{}' является '{}'."
+
+#: source/telegram/menu/mnu_company/language.py:14
+msgid "This language used for messages in company chats: logging and group."
+msgstr "Этот язык используется для сообщений в чатах компании: протоколе и группе."
+
+#: source/telegram/menu/mnu_company/language.py:16
+msgid "To change a language for this chat, use /language command."
+msgstr "Для смены языка этого чата используйте команду /language"
+
+#: source/telegram/menu/mnu_company/language.py:18
+msgid "Select new company language from the list."
+msgstr "Выберите новый компании язык из списка."
+
+#: source/telegram/menu/mnu_company/language.py:38
+msgid "Company language set to '{}'."
+msgstr "Язык компании установлен в '{}'."
+
+#: source/telegram/menu/mnu_company/log.py:8
+msgid "Logging disabled."
+msgstr "Протоколирование отключено."
+
+#: source/telegram/menu/mnu_company/log.py:10
+msgid ""
+"To enable logging to group please send /log command to group where {} has"
+" a membership."
+msgstr ""
+"Для включения протоколирования в группе пошлите команду /log в группу, "
+"где участвует {}"
+
+#: source/telegram/menu/mnu_company/log.py:14
+msgid "That group will be used for logging activity of employees."
+msgstr "В эту группу будет выводиться протокол действий сотрудников компании."
+
+#: source/telegram/menu/mnu_company/log.py:16
+msgid ""
+"If you want to use a channel, add bot as channel admin and send */log {}*"
+" command to the channel."
+msgstr ""
+"Если вы хотите использовать канал, добавьте бота как администратора "
+"канала и пошлите команду */log {}* в канал."
+
+#: source/telegram/menu/mnu_company/log.py:32
+msgid "Are you sure that you need to turn off logging?"
+msgstr "Вы уверены, что нужно отключить протоколирование?"
+
+#: source/telegram/menu/mnu_company/name.py:14
+msgid "Company renamed."
+msgstr "Компания переименована."
+
+#: source/telegram/menu/mnu_company/name.py:23
+msgid "Current company title: '{}'."
+msgstr "Текущее название компании: '{}'."
+
+#: source/telegram/menu/mnu_company/name.py:25
+msgid "Enter a new name for a company or Cancel."
+msgstr "Введите новое название для компании или Отказ."
+
+#: source/telegram/menu/mnu_company/location/country.py:19
+msgid "Another country"
+msgstr "Другая страна"
+
+#: source/telegram/menu/mnu_company/location/country.py:38
+msgid "Current country of company '{}' is '{}'."
+msgstr "Компания '{}' находится в стране '{}'."
+
+#: source/telegram/menu/mnu_company/location/country.py:40
+msgid "Select new country from the list or Cancel."
+msgstr "Выберите новую страну из списка или Отказ."
+
+#: source/telegram/menu/mnu_company/location/country.py:66
+msgid ""
+"Your company does not have a binding to a particular country and the "
+"company's time zone is set at UTC."
+msgstr ""
+"Ваша компания не имеет привязки к конкретной стране и часовой пояс вашей "
+"компании установлен в UTC (время по Гринвичу)."
+
+#: source/telegram/menu/mnu_company/location/country.py:71
+msgid ""
+"The bot does not collect data that allows identifying your company in "
+"real life."
+msgstr ""
+"Бот не собирает данные, позволяющие идентифицировать вашу компанию в "
+"реальной жизни."
+
+#: source/telegram/menu/mnu_company/location/country.py:73
+msgid "The only thing bot need to know is the time zone in which you work."
+msgstr ""
+"Единственная вещь, которую боту нужно знать - это часовой пояс, в котором"
+" вы работаете."
+
+#: source/telegram/menu/mnu_company/location/country.py:75
+msgid ""
+"This data is needed to correctly display dates and times in the schedule "
+"of your company."
+msgstr ""
+"Эти данные нужны для правильного отображения дат и времени в расписании "
+"работ."
+
+#: source/telegram/menu/mnu_company/location/country.py:77
+msgid ""
+"To offer you to select from the correct set of time zones, the bot needs "
+"to know the country in which your company operates."
+msgstr ""
+"Чтобы предложить вам выбор из актуального набора часовых поясов, боту "
+"нужно знать страну, в которой вы работаете."
+
+#: source/telegram/menu/mnu_company/location/country.py:82
+msgid ""
+"Write to the user's support group that your country should be included in"
+" the list of supported countries."
+msgstr ""
+"Напишите в группе поддержки пользователей бота, что вашу страну нужно "
+"включить в список поддерживаемых стран."
+
+#: source/telegram/menu/mnu_company/location/country.py:87
+msgid "This message can be written in English or Russian."
+msgstr "Это сообщение можно написать на английском или русском языке."
+
+#: source/telegram/menu/mnu_company/location/country.py:90
+msgid "Go to support group"
+msgstr "Перейти в группу поддержки"
+
+#: source/telegram/menu/mnu_company/location/country.py:104
+msgid "Country of company '{}' was set to '{}'."
+msgstr "Для компании '{}' страна установлена в '{}'."
+
+#: source/telegram/menu/mnu_company/location/time_zone.py:19
+msgid "Current time zone is '{}'."
+msgstr "Часовой пояс компании установлен в '{}'."
+
+#: source/telegram/menu/mnu_company/location/time_zone.py:21
+msgid "Please, select new time zone from the list or Cancel."
+msgstr "Выберите новый часовой пояс из списка или Отказ."
+
+#: source/telegram/menu/mnu_company/location/time_zone.py:43
+msgid "Time zone for company '{}' was set to '{}'."
+msgstr "Часовой пояс для компании '{}' установлен в '{}'."
+
+#: source/telegram/menu/mnu_downloads/__init__.py:13
+msgid "Customers"
+msgstr "Клиенты"
+
+#: source/telegram/menu/mnu_downloads/__init__.py:15
+msgid "Schedule"
+msgstr "Расписание"
+
+#: source/telegram/menu/mnu_downloads/__init__.py:20
+msgid ""
+"You can download current schedule, list of customers, cashbox operations "
+"or list of completed orders as CSV file."
+msgstr ""
+"Вы можете скачать текущее расписание, список клиентов, список кассовых "
+"операций или список завершенных заказов в формате CSV файла для просмотра"
+" в Excel."
+
+#: source/telegram/menu/mnu_downloads/__init__.py:30
+msgid "List of cashdesk operations of company '{}' for last {} days"
+msgstr "Список кассовых операций компании '{}' за последние {} дней"
+
+#: source/telegram/menu/mnu_downloads/__init__.py:52
+msgid "Current schedule of the company '{}'"
+msgstr "Текущее расписание компании '{}'"
+
+#: source/telegram/menu/mnu_downloads/__init__.py:75
+msgid "List of finished orders of company '{}' for last {} days"
+msgstr "Список завершенных заказов компании '{}' за последние {} дней"
+
+#: source/telegram/menu/mnu_downloads/__init__.py:97
+msgid "List of customers '{}'"
+msgstr "Список клиентов '{}'"
+
+#: source/telegram/menu/mnu_employees/__init__.py:10
+msgid "Edit name"
+msgstr "Изменить имя"
+
+#: source/telegram/menu/mnu_employees/__init__.py:11
+msgid "Add permission"
+msgstr "Добавить полномочия"
+
+#: source/telegram/menu/mnu_employees/__init__.py:12
+msgid "Remove permission"
+msgstr "Убрать полномочия"
+
+#: source/telegram/menu/mnu_employees/__init__.py:14
+msgid "Fire"
+msgstr "Уволить"
+
+#: source/telegram/menu/mnu_employees/__init__.py:25
+msgid "{} have next rights in company '{}':"
+msgstr "{} имеет следующие права в компании '{}':"
+
+#: source/telegram/menu/mnu_employees/__init__.py:42
+msgid "Employee renamed."
+msgstr "Сотрудник переименован."
+
+#: source/telegram/menu/mnu_employees/__init__.py:51
+msgid "Current employee name: '{}'."
+msgstr "Текущее имя сотрудника: '{}'."
+
+#: source/telegram/menu/mnu_employees/__init__.py:53
+msgid "Enter the new name for employee or Cancel."
+msgstr "Введите новое имя для сотрудника или Отказ."
+
+#: source/telegram/menu/mnu_employees/__init__.py:71
+msgid "{} don't have any rights in company '{}'."
+msgstr "{} не имеет никаких полномочий в компании '{}'."
+
+#: source/telegram/menu/mnu_employees/add_rights.py:14
+#: source/telegram/menu/mnu_employees/add_rights.py:28
+msgid "Please, select permission to add from the list or Cancel."
+msgstr "Выберите полномочие для добавления из списка или Отказ."
+
+#: source/telegram/menu/mnu_employees/add_rights.py:45
+msgid "Are you wish to set a permission '{}' to '{}'?"
+msgstr "Вы хотите назначить права '{}' для '{}'?"
+
+#: source/telegram/menu/mnu_employees/add_rights.py:54
+msgid "'{}' set by '{}'"
+msgstr "'{}' установлено '{}'"
+
+#: source/telegram/menu/mnu_employees/add_rights.py:56
+msgid "Set permission '{}' to '{}'"
+msgstr "Даны права '{}' для '{}'"
+
+#: source/telegram/menu/mnu_employees/add_rights.py:60
+msgid "You got the permission '{}'."
+msgstr "Вы получили полномочие '{}'."
+
+#: source/telegram/menu/mnu_employees/add_rights.py:62
+msgid "Please send the /start command to refresh the root menu."
+msgstr "Отправьте команду /start в этот чат, чтобы обновить корневое меню."
+
+#: source/telegram/menu/mnu_employees/del_rights.py:14
+#: source/telegram/menu/mnu_employees/del_rights.py:28
+msgid "Please, select permission to remove from the list or Cancel."
+msgstr "Выберите полномочие для удаления из списка или Отказ."
+
+#: source/telegram/menu/mnu_employees/del_rights.py:45
+msgid "Are you wish to revoke a permission '{}' from '{}'?"
+msgstr "Вы хотите убрать права '{}' у '{}'?"
+
+#: source/telegram/menu/mnu_employees/del_rights.py:54
+msgid "'{}' revoked by '{}'"
+msgstr "'{}' убрано '{}'"
+
+#: source/telegram/menu/mnu_employees/del_rights.py:56
+msgid "Revoke permission '{}' from '{}'"
+msgstr "Убраны права '{}' у '{}'"
+
+#: source/telegram/menu/mnu_employees/del_rights.py:59
+msgid "Permission '{}' was removed from your rights."
+msgstr "Полномочие '{}' было удалено из ваших прав."
+
+#: source/telegram/menu/mnu_employees/fire.py:11
+msgid "Fired by '{}'"
+msgstr "Уволен '{}'"
+
+#: source/telegram/menu/mnu_employees/fire.py:14
+msgid "Employee '{}' was removed from company '{}'."
+msgstr "Сотрудник '{}' удален из компании '{}'."
+
+#: source/telegram/menu/mnu_employees/fire.py:19
+msgid "You are removed from employees list of company '{}'."
+msgstr "Вы удалены из списка сотрудников компании '{}'."
+
+#: source/telegram/menu/mnu_employees/fire.py:29
+msgid "You can't remove yourself from the company."
+msgstr "Вы не можете удалить себя из компании."
+
+#: source/telegram/menu/mnu_employees/fire.py:31
+msgid "Use /stop command, if you want leave the company."
+msgstr "Используйте команду /stop, если хотите покинуть компанию."
+
+#: source/telegram/menu/mnu_employees/fire.py:37
+msgid "You can't remove creator of the company."
+msgstr "Вы не можете удалить из компании ее владельца."
+
+#: source/telegram/menu/mnu_employees/fire.py:41
+msgid "Are you sure to remove employee '{}' from company '{}'?"
+msgstr "Вы действительно хотите удалить сотрудника '{}' из компании '{}'?"
+
+#: source/telegram/menu/mnu_employees/permission.py:6
+msgid "'Admin' is a vice-owner."
+msgstr "'Администратор это заместитель владельца компании.'"
+
+#: source/telegram/menu/mnu_employees/permission.py:8
+msgid "He has a set of company owner rights with some exceptions."
+msgstr "Он имеет права те же права, что и владелец с некоторыми исключениями."
+
+#: source/telegram/menu/mnu_employees/permission.py:10
+msgid ""
+"He can downloads company statistics data (clients, orders, etc) for "
+"analyzing."
+msgstr ""
+"Он может выгружать статистические данные компании (клиенты, заказы и "
+"т.п.) для анализа."
+
+#: source/telegram/menu/mnu_employees/permission.py:12
+msgid ""
+"He can manage company employees and set/revoke they rights, except role "
+"'admin'."
+msgstr ""
+"Он может управлять сотрудниками и назначать/убирать их права, кроме роли "
+"'Администратор'."
+
+#: source/telegram/menu/mnu_employees/permission.py:14
+msgid "Role 'admin' can be set or revoke only by the company owner."
+msgstr "Роль 'Администратор' может назначить и убрать только владелец компании."
+
+#: source/telegram/menu/mnu_employees/permission.py:16
+msgid "Also, 'admin' don't have access to 'Company settings' menu."
+msgstr "Также 'Администратор' не имеет доступа к меню 'Настройки компании'."
+
+#: source/telegram/menu/mnu_employees/permission.py:22
+msgid "'Engineer' have access to 'Goods and services' menu."
+msgstr "'Технолог' имеет доступ к меню 'Товары и услуги'."
+
+#: source/telegram/menu/mnu_employees/permission.py:24
+msgid "He can manage the list of company goods and list of order's classes."
+msgstr ""
+"Он может управлять списком товаров и услуг компании и списком классов "
+"заказа."
+
+#: source/telegram/menu/mnu_employees/permission.py:30
+msgid "'Manager' have access to 'Clients' and 'Orders' menus."
+msgstr "'Менеджер' имеет доступ к меню 'Клиенты' и 'Заказы'."
+
+#: source/telegram/menu/mnu_employees/permission.py:32
+msgid ""
+"He can manage the list of company clients and manage orders in company "
+"schedule."
+msgstr ""
+"Он может управлять списком клиентов и списком заказов компании в "
+"расписании."
+
+#: source/telegram/menu/mnu_employees/permission.py:38
+msgid "'Worker' have access to 'Calendar' menu."
+msgstr "'Сотрудник' имеет доступ к меню 'Календарь'."
+
+#: source/telegram/menu/mnu_employees/permission.py:40
+msgid "He can view current orders in company schedule."
+msgstr "Он может просматривать текущие заказы в расписании компании."
+
+#: source/telegram/menu/mnu_employees/permission.py:42
+msgid "But he doesn't have access to information about orders cost and customers."
+msgstr ""
+"Но у него нет доступа к данным о стоимости заказов и контактным данным "
+"клиентов."
+
+#: source/telegram/menu/mnu_employees/permission.py:48
+msgid "'Cashier' have access to 'Cashbox' menu."
+msgstr "'Кассир' имеет доступ к меню 'Касса'."
+
+#: source/telegram/menu/mnu_employees/select.py:26
+msgid "New employee can join the company by following this invitation link"
+msgstr ""
+"Новый сотрудник может присоединиться к компании, перейдя по следующей "
+"ссылке-приглашению"
+
+#: source/telegram/menu/mnu_employees/select.py:29
+msgid "After that employee appears in the list, and you can set his rights."
+msgstr ""
+"После этого сотрудник появится в списке и вы сможете назначить ему права "
+"в компании."
+
+#: source/telegram/menu/mnu_employees/select.py:31
+#: source/telegram/menu/mnu_employees/select.py:58
+msgid "Please, select employee from the list, or Cancel."
+msgstr "Выберите сотрудника из списка или Отказ."
+
+#: source/telegram/menu/mnu_employees/select.py:49
+msgid "New invitation link for the company was generated."
+msgstr "Создана новая пригласительная ссылка в компанию."
+
+#: source/telegram/menu/mnu_order/__init__.py:44
+#: source/telegram/menu/mnu_order/edit/customer.py:9
+msgid "Edit"
+msgstr "Изменить"
+
+#: source/telegram/menu/mnu_order/__init__.py:45
+msgid "Undo"
+msgstr "Отменить"
+
+#: source/telegram/menu/mnu_order/__init__.py:46
+msgid "Finish"
+msgstr "Завершить"
+
+#: source/telegram/menu/mnu_order/__init__.py:47
+msgid "Restore"
+msgstr "Возобновить"
+
+#: source/telegram/menu/mnu_order/__init__.py:48
+msgid "Remove order"
+msgstr "Удалить заказ"
+
+#: source/telegram/menu/mnu_order/__init__.py:49
+msgid "To plan"
+msgstr "Запланировать"
+
+#: source/telegram/menu/mnu_order/__init__.py:52
+#: source/telegram/menu/mnu_suppliers/order/__init__.py:13
+msgid "Content"
+msgstr "Состав"
+
+#: source/telegram/menu/mnu_order/__init__.py:53
+msgid "Set customer"
+msgstr "Назначить клиента"
+
+#: source/telegram/menu/mnu_order/cost.py:19
+#: source/telegram/menu/mnu_order/edit/cost.py:21
+msgid "Need a number value."
+msgstr "Нужно числовое значение."
+
+#: source/telegram/menu/mnu_order/cost.py:25
+msgid "Cost for customer was set to {}."
+msgstr "Стоимость для клиента установлена в {}."
+
+#: source/telegram/menu/mnu_order/cost.py:38
+msgid "Please, enter the cost for customer or Cancel."
+msgstr "Введите стоимость для клиента или Отказ."
+
+#: source/telegram/menu/mnu_order/date_finish.py:18
+msgid "Order is planned."
+msgstr "Заказ запланирован."
+
+#: source/telegram/menu/mnu_order/date_finish.py:27
+#: source/telegram/menu/mnu_order/edit/plan.py:78
+#: source/telegram/menu/mnu_order/edit/plan.py:135
+msgid "Same day"
+msgstr "Тот же день"
+
+#: source/telegram/menu/mnu_order/date_finish.py:34
+#: source/telegram/menu/mnu_order/edit/plan.py:137
+msgid "Please, choose the day for a planned finish of the work or Cancel."
+msgstr "Выберите день планового завершения работ или Отказ."
+
+#: source/telegram/menu/mnu_order/date_finish.py:46
+#: source/telegram/menu/mnu_order/date_finish.py:115
+msgid "Planned day of finish work for order was set to the {}."
+msgstr "Запланированный день окончания работ по заказу установлен в {}."
+
+#: source/telegram/menu/mnu_order/date_finish.py:48
+msgid "At this day order will start at {}:{}."
+msgstr "В этот день начало работы по заказу запланировано на {}:{}."
+
+#: source/telegram/menu/mnu_order/date_finish.py:59
+msgid "How many hours (0-{}) will the work last?"
+msgstr "Сколько часов (0-{}) должна продлиться работа?"
+
+#: source/telegram/menu/mnu_order/date_finish.py:65
+msgid "How many minutes (0-{}) will the work last?"
+msgstr "Сколько минут (0-{}) должна продлиться работа?"
+
+#: source/telegram/menu/mnu_order/date_finish.py:85
+msgid "And how many minutes?"
+msgstr "И сколько минут?"
+
+#: source/telegram/menu/mnu_order/date_finish.py:117
+msgid "Please, enter the hour of finish work (0-23)."
+msgstr "Введите планируемый час окончания работы (0-23)."
+
+#: source/telegram/menu/mnu_order/date_finish.py:143
+#: source/telegram/menu/mnu_order/edit/plan.py:98
+msgid "Do you want to finish work on that day?"
+msgstr "Вы хотите запланировать окончание работ по заказу на этот день?"
+
+#: source/telegram/menu/mnu_order/date_finish.py:159
+msgid "Please, enter the minutes of this hour of finish work (0-59)."
+msgstr "Введите минуты часа планируемого окончания работ (0-59)."
+
+#: source/telegram/menu/mnu_order/date_start.py:13
+msgid "Planned date of start for order was set to the {}."
+msgstr "Дата планируемого начала работ установлена в {}."
+
+#: source/telegram/menu/mnu_order/date_start.py:28
+msgid "Planned day of start for order was set to the {}."
+msgstr "День планируемого начала работ установлен в {}."
+
+#: source/telegram/menu/mnu_order/date_start.py:30
+msgid "Please, enter the hour of start work"
+msgstr "Введите час начала работ"
+
+#: source/telegram/menu/mnu_order/date_start.py:47
+msgid "Please, enter the minutes of this hour of start work (0-59)."
+msgstr "Введите минуты часа начала работ (0-59)."
+
+#: source/telegram/menu/mnu_order/delete.py:12
+msgid "Order was removed"
+msgstr "Заказ удален."
+
+#: source/telegram/menu/mnu_order/delete.py:24
+msgid "Are you sure to delete this order?"
+msgstr "Вы уверены, что нужно удалить этот заказ?"
+
+#: source/telegram/menu/mnu_order/finish.py:12
+msgid "A planned order was finished."
+msgstr "Запланированный заказ завершен."
+
+#: source/telegram/menu/mnu_order/finish.py:24
+msgid ""
+"Are you sure that all tasks for this order was complete and this order "
+"can be removed from the schedule?"
+msgstr ""
+"Вы уверены, что все работы по заказу завершены и этот заказ можно убрать "
+"из расписания?"
+
+#: source/telegram/menu/mnu_order/name.py:20
+#: source/telegram/menu/mnu_suppliers/history.py:107
+#: source/telegram/menu/mnu_suppliers/order/__init__.py:51
+msgid "New order was created."
+msgstr "Новый заказ создан."
+
+#: source/telegram/menu/mnu_order/name.py:27
+msgid "Please, enter the description for the new order or Cancel."
+msgstr "Введите описание нового заказа или Отказ."
+
+#: source/telegram/menu/mnu_order/plan.py:44
+msgid "Do you want to start work for the order on that day?"
+msgstr "Вы хотите запланировать начало работ на этот день?"
+
+#: source/telegram/menu/mnu_order/restore.py:13
+msgid "A finished order was restored."
+msgstr "Завершенный заказ возвращен в работу."
+
+#: source/telegram/menu/mnu_order/restore.py:21
+msgid ""
+"Are you sure that you need to restore work and put this order on the "
+"schedule?"
+msgstr "Вы уверены что нужно возобновить работу и вернуть этот заказ в расписание?"
+
+#: source/telegram/menu/mnu_order/undo.py:22
+msgid "A planned order was canceled."
+msgstr "Запланированный заказ отменен."
+
+#: source/telegram/menu/mnu_order/undo.py:30
+msgid "Are you sure that you need to undo this order?"
+msgstr "Вы уверены, что нужно отменить этот заказ?"
+
+#: source/telegram/menu/mnu_order/body/__init__.py:9
+msgid "Class of order"
+msgstr "Класс заказа"
+
+#: source/telegram/menu/mnu_order/body/__init__.py:10
+msgid "Add row"
+msgstr "Добавить строку"
+
+#: source/telegram/menu/mnu_order/body/__init__.py:11
+msgid "Edit row"
+msgstr "Изменить строку"
+
+#: source/telegram/menu/mnu_order/body/__init__.py:33
+msgid "Changing content of the order."
+msgstr "Изменение содержимого заказа."
+
+#: source/telegram/menu/mnu_order/body/goods.py:45
+#: source/telegram/menu/mnu_suppliers/history.py:140
+msgid "Row '{}' with price {} was added to order."
+msgstr "Строка '{}' с ценой {} добавлена в заказ."
+
+#: source/telegram/menu/mnu_order/body/goods.py:56
+#: source/telegram/menu/mnu_prices/__init__.py:87
+msgid "Currently, company settings don't have any goods."
+msgstr "На данный момент в настройках компании нет товаров."
+
+#: source/telegram/menu/mnu_order/body/goods.py:60
+msgid ""
+"An employee with role 'engineer' can add goods and services from 'Goods "
+"and services' menu."
+msgstr ""
+"Сотрудник с ролью 'технолог' может добавить товары и услуги из меню "
+"'Товары и услуги'."
+
+#: source/telegram/menu/mnu_order/body/goods.py:72
+msgid ""
+"You can add a position to the order by choosing from the catalog or by "
+"the search for goods."
+msgstr ""
+"Вы можете добавить строку заказа выбрав услугу из каталога или через "
+"поиск услуг."
+
+#: source/telegram/menu/mnu_order/body/ord_class.py:25
+msgid "Please, choose class from the list, or Cancel."
+msgstr "Пожалуйста, выберите класс из меню или Отказ."
+
+#: source/telegram/menu/mnu_order/body/ord_class.py:39
+msgid "Class of the order was set to '{}'."
+msgstr "Класс заказа установлен в '{}'."
+
+#: source/telegram/menu/mnu_order/body/ord_class.py:53
+msgid "Currently, company settings have not any classes of order."
+msgstr "В данный момент в настройках компании нет классов заказа."
+
+#: source/telegram/menu/mnu_order/body/ord_class.py:55
+msgid ""
+"An employee with role 'engineer' can add some classes from 'Goods and "
+"services' menu."
+msgstr ""
+"Сотрудник с ролью 'технолог' может добавить классы заказа через меню "
+"'Товары и услуги'."
+
+#: source/telegram/menu/mnu_order/body/ord_class.py:67
+msgid "Current class of this order '{}'."
+msgstr "Текущий класс этого заказа '{}'."
+
+#: source/telegram/menu/mnu_order/body/ord_class.py:69
+msgid "Please, choose new class of this order."
+msgstr "Выберите новый класс этого заказа."
+
+#: source/telegram/menu/mnu_order/body/row.py:40
+msgid "Current quantity of '{}' in order: {}."
+msgstr "Текущее количество '{}' в заказе: {}."
+
+#: source/telegram/menu/mnu_order/body/row.py:42
+msgid "Enter new quantity, 0 for row delete."
+msgstr "Введите новое количество или 0 для удаления строки."
+
+#: source/telegram/menu/mnu_order/body/row.py:53
+msgid "Need a integer number value."
+msgstr "Нужно целое число."
+
+#: source/telegram/menu/mnu_order/body/row.py:58
+msgid "Row deleted."
+msgstr "Строка удалена."
+
+#: source/telegram/menu/mnu_order/body/row.py:61
+msgid "The quantity of '{}' in the order was set to {}."
+msgstr "Количество '{}' в заказе установлено в {}."
+
+#: source/telegram/menu/mnu_order/body/row.py:70
+msgid "Please, choose row for edit or Cancel."
+msgstr "Выберите строку для изменения или Отказ."
+
+#: source/telegram/menu/mnu_order/edit/__init__.py:7
+msgid "Plan dates"
+msgstr "Плановые даты"
+
+#: source/telegram/menu/mnu_order/edit/cost.py:27
+msgid "Cost for customer was changed from {} to {}."
+msgstr "Стоимость для клиента изменена с {} на {}."
+
+#: source/telegram/menu/mnu_order/edit/cost.py:38
+msgid "Current cost for customer is {}."
+msgstr "Текущая стоимость для заказчика {}."
+
+#: source/telegram/menu/mnu_order/edit/cost.py:40
+msgid "Please, enter the new cost or Cancel."
+msgstr "Введите новую стоимость или Отказ."
+
+#: source/telegram/menu/mnu_order/edit/customer.py:10
+msgid "Clear"
+msgstr "Очистить"
+
+#: source/telegram/menu/mnu_order/edit/customer.py:14
+msgid "Are you sure to remove a customer from this order?"
+msgstr "Вы уверены, что нужно удалить заказчика у этого заказа?"
+
+#: source/telegram/menu/mnu_order/edit/customer.py:28
+#: source/telegram/menu/mnu_order/edit/plan.py:24
+msgid "No changes were made."
+msgstr "Изменений не было."
+
+#: source/telegram/menu/mnu_order/edit/customer.py:36
+msgid "Customer of order was changed from '{}' to '{}'."
+msgstr "Заказчик был изменен с '{}' на '{}'."
+
+#: source/telegram/menu/mnu_order/edit/customer.py:39
+msgid "Customer of order was set to '{}'."
+msgstr "Заказчик установлен в '{}'."
+
+#: source/telegram/menu/mnu_order/edit/customer.py:57
+msgid "Customer '{}' was removed from order."
+msgstr "Заказчик '{}' удален из заказа."
+
+#: source/telegram/menu/mnu_order/edit/customer.py:68
+msgid "Order has not customer."
+msgstr "У заказа нет данных о заказчике."
+
+#: source/telegram/menu/mnu_order/edit/customer.py:75
+msgid "Current customer of order is '{}'."
+msgstr "Текущий заказчик этого заказа '{}'."
+
+#: source/telegram/menu/mnu_order/edit/name.py:24
+msgid "Order description was changed from '{}' to '{}'."
+msgstr "Описание заказа изменено с '{}' на '{}'."
+
+#: source/telegram/menu/mnu_order/edit/name.py:40
+msgid "Please, enter the new description or Cancel."
+msgstr "Введите новое описание или Отказ."
+
+#: source/telegram/menu/mnu_order/edit/name.py:50
+msgid "Enter additional info or Cancel."
+msgstr "Введите дополнительные данные или Отказ."
+
+#: source/telegram/menu/mnu_order/edit/name.py:61
+msgid "Current description for order is '{}'."
+msgstr "Текущее описание заказа '{}'."
+
+#: source/telegram/menu/mnu_order/edit/plan.py:27
+msgid "Planned dates were changed {} -> {}"
+msgstr "Запланированные даты изменены {} -> {}"
+
+#: source/telegram/menu/mnu_order/edit/plan.py:70
+msgid "Do you want to start work on that day?"
+msgstr "Вы хотите запланировать начало работ на этот день?"
+
+#: source/telegram/menu/mnu_prices/__init__.py:16
+msgid "Upload"
+msgstr "Загрузить"
+
+#: source/telegram/menu/mnu_prices/__init__.py:17
+msgid "Download"
+msgstr "Скачать"
+
+#: source/telegram/menu/mnu_prices/__init__.py:18
+msgid "View"
+msgstr "Просмотр"
+
+#: source/telegram/menu/mnu_prices/__init__.py:24
+msgid "Company settings file"
+msgstr "Файл настроек компании"
+
+#: source/telegram/menu/mnu_prices/__init__.py:26
+msgid "No settings yet."
+msgstr "Настройки отсутствуют."
+
+#: source/telegram/menu/mnu_prices/__init__.py:35
+msgid "Please, upload a json file with company goods and services or Cancel."
+msgstr "Загрузите json файл товаров и услуг компании или Отказ."
+
+#: source/telegram/menu/mnu_prices/__init__.py:58
+msgid "Upload company settings file '{}'"
+msgstr "Загружен файл настроек компании '{}'"
+
+#: source/telegram/menu/mnu_prices/__init__.py:61
+msgid "File '{}' was passed to processing."
+msgstr "Файл '{}' передан в обработку."
+
+#: source/telegram/menu/mnu_prices/__init__.py:75
+msgid "Load an example pack of goods"
+msgstr "Загрузка примера набора товаров"
+
+#: source/telegram/menu/mnu_prices/__init__.py:76
+msgid "Example pack of goods was passed to processing."
+msgstr "Примерный набор товаров передан на обработку."
+
+#: source/telegram/menu/mnu_prices/__init__.py:89
+msgid "I can load an example pack of goods and services."
+msgstr "Я могу загрузить небольшой набор товаров и услуг для примера."
+
+#: source/telegram/menu/mnu_prices/__init__.py:91
+msgid ""
+"Later you can review this example, download it, edit for your needs and "
+"upload back."
+msgstr ""
+"Позднее вы сможете скачать его, отредактировать как вам нужно и загрузить"
+" обратно."
+
+#: source/telegram/menu/mnu_prices/__init__.py:93
+msgid "Are you wish to load an example pack of goods?"
+msgstr "Хотите загрузить пример набора товаров?"
+
+#: source/telegram/menu/mnu_prices/goods.py:35
+msgid "Item"
+msgstr "Элемент"
+
+#: source/telegram/menu/mnu_prices/goods.py:37
+msgid "External ID"
+msgstr "Внешний ID"
+
+#: source/telegram/menu/mnu_prices/goods.py:46
+msgid "Prices"
+msgstr "Цены"
+
+#: source/telegram/menu/mnu_prices/goods.py:58
+msgid "Price"
+msgstr "Цена"
+
+#: source/telegram/menu/mnu_prices/goods.py:65
+msgid "View for goods of company."
+msgstr "Просмотр услуг компании."
+
+#: source/telegram/menu/mnu_prices/view.py:9
+#: source/telegram/menu/mnu_prices/view.py:23
+msgid "Classes of order"
+msgstr "Классы заказа"
+
+#: source/telegram/menu/mnu_prices/view.py:10
+msgid "Goods"
+msgstr "Товары"
+
+#: source/telegram/menu/mnu_prices/view.py:15
+msgid "View for settings."
+msgstr "Просмотр настроек"
+
+#: source/telegram/menu/mnu_prices/view.py:20
+msgid "There aren't any order classes in company settings."
+msgstr "В настройках компании нет классов заказа."
+
+#: source/telegram/menu/mnu_suppliers/__init__.py:31
+msgid "Select supplier from the list or Cancel."
+msgstr "Выберите поставщика из списка или Отказ."
+
+#: source/telegram/menu/mnu_suppliers/delete.py:8
+msgid "Are you sure to remove supplier '{}' from your list?"
+msgstr "Уверены, что нужно удалить поставщика '{}' из вашего списка?"
+
+#: source/telegram/menu/mnu_suppliers/delete.py:16
+msgid "Supplier '{}' was removed."
+msgstr "Поставщик '{}' удален."
+
+#: source/telegram/menu/mnu_suppliers/delete.py:21
+msgid "Supplier was removed."
+msgstr "Поставщик удален."
+
+#: source/telegram/menu/mnu_suppliers/history.py:16
+msgid "Use as template"
+msgstr "Использовать как шаблон"
+
+#: source/telegram/menu/mnu_suppliers/history.py:32
+msgid "History of orders for '{}'."
+msgstr "История заказов для '{}'."
+
+#: source/telegram/menu/mnu_suppliers/history.py:34
+msgid ""
+"To use any previous order as template for new order, select order from "
+"the menu, or Back."
+msgstr ""
+"Чтобы использовать любой предыдущий заказ как шаблон нового заказа, "
+"выберите заказ из меню или Назад."
+
+#: source/telegram/menu/mnu_suppliers/history.py:63
+msgid "You can use this order as the template for a new order to this supplier."
+msgstr "Вы можете использовать этот заказ как шаблон нового заказа к поставщику."
+
+#: source/telegram/menu/mnu_suppliers/history.py:81
+msgid "Description of previous order is '{}'."
+msgstr "Описание предыдущего заказа: '{}'."
+
+#: source/telegram/menu/mnu_suppliers/history.py:83
+#: source/telegram/menu/mnu_suppliers/order/__init__.py:28
+msgid "Enter description for new order for supplier '{}' or Cancel."
+msgstr "Введите описание нового заказа для поставщика '{}' или Отказ."
+
+#: source/telegram/menu/mnu_suppliers/history.py:122
+msgid "Item '{}' not found in the list of goods from supplier '{}'."
+msgstr "Элемент '{}' не найден в каталоге товаров и услуг поставщика '{}'."
+
+#: source/telegram/menu/mnu_suppliers/history.py:126
+msgid "Maybe it was removed or replaced."
+msgstr "Возможно он удален или заменен."
+
+#: source/telegram/menu/mnu_suppliers/history.py:128
+msgid "Please, contact the supplier for additional information."
+msgstr "Свяжитесь с поставщиком для уточнения деталей."
+
+#: source/telegram/menu/mnu_suppliers/item.py:9
+msgid "Make order"
+msgstr "Сделать заказ"
+
+#: source/telegram/menu/mnu_suppliers/item.py:10
+msgid "History"
+msgstr "История"
+
+#: source/telegram/menu/mnu_suppliers/item.py:15
+msgid "Supplier"
+msgstr "Поставщик"
+
+#: source/telegram/menu/mnu_suppliers/rename.py:10
+msgid "Current supplier name is '{}'."
+msgstr "Текущее имя поставщика: '{}'."
+
+#: source/telegram/menu/mnu_suppliers/rename.py:28
+msgid "Supplier was renamed."
+msgstr "Поставщик переименован."
+
+#: source/telegram/menu/mnu_suppliers/order/__init__.py:12
+msgid "Send"
+msgstr "Отослать"
+
+#: source/telegram/menu/mnu_suppliers/order/__init__.py:21
+msgid "Order for supplier '{}'"
+msgstr "Заказ для поставщика '{}'"
+
+#: source/telegram/menu/mnu_suppliers/order/description.py:15
+msgid "Current description"
+msgstr "Текущее описание"
+
+#: source/telegram/menu/mnu_suppliers/order/description.py:25
+msgid "Enter new description for order or Cancel."
+msgstr "Введите новое описание для заказа или Отказ."
+
+#: source/telegram/menu/mnu_suppliers/order/description.py:39
+msgid "Order description was changed."
+msgstr "Описание заказа изменено."
+
+#: source/telegram/menu/mnu_suppliers/order/description.py:46
+msgid "Enter additional text or Cancel."
+msgstr "Введите дополнительный текст или Отказ."
+
+#: source/telegram/menu/mnu_suppliers/order/description.py:60
+msgid "Order description was extended."
+msgstr "Описание заказа было дополнено."
+
+#: source/telegram/menu/mnu_suppliers/order/remove.py:7
+msgid "Are you sure to delete order '{}' for supplier '{}'?"
+msgstr "Действительно хотите удалить заказ '{}' для поставщика '{}'?"
+
+#: source/telegram/menu/mnu_suppliers/order/remove.py:19
+msgid "Order was deleted."
+msgstr "Заказ удален."
+
+#: source/telegram/menu/mnu_suppliers/order/send.py:8
+msgid "Are you sure to send order '{}' to supplier '{}'?"
+msgstr "Действительно хотите отослать заказ '{}' к поставщику '{}'?"
+
+#: source/telegram/menu/mnu_suppliers/order/send.py:19
+msgid "Order was sent to supplier."
+msgstr "Заказ отослан к поставщику."
+
+#: source/telegram/menu/mnu_suppliers/order/send.py:21
+msgid "Managers of '{}' was notified."
+msgstr "Ответственные работники '{}' оповещены."
+
+#: source/telegram/menu/mnu_suppliers/order/send.py:23
+msgid "When your order will be approved, you receive appropriate to notify."
+msgstr "Когда ваш заказ будет принят, вы получите соответствующее оповещение."
+
+#: source/telegram/menu/mnu_suppliers/order/send.py:25
+msgid "Or manager will chat with you for detailed information."
+msgstr ""
+"Ответственный работник может связаться с вами в чате для уточнения "
+"деталей."
+
+#: source/telegram/menu/mnu_suppliers/order/send.py:27
+msgid "You can find this order in 'History' menu of this supplier."
+msgstr "Этот заказ можно найти в меню 'История' этого поставщика."
+
+#: source/telegram/menu/mnu_suppliers/order/send.py:29
+msgid ""
+"If you need to make a similar order, then you can use this order as a "
+"template."
+msgstr ""
+"Если вам будет нужно сделать похожий заказ, вы можете использовать данный"
+" заказ как шаблон."
+
