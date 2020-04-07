@@ -21,7 +21,7 @@ msgstr ""
 
 #: source/views.py:153
 msgid "Use /notifyschedule to turn off notifications."
-msgstr "Use / notifyschedule para desactivar las notificaciones."
+msgstr "Use /notifyschedule para desactivar las notificaciones."
 
 #: source/views.py:175 source/views.py:183
 msgid "Cashdesk operation"
@@ -309,7 +309,7 @@ msgstr "canal"
 
 #: source/telegram/bot.py:37
 msgid "You can communicate with bot in private chat @{}"
-msgstr "Puedes comunicarte con el bot en el chat privado @ {}"
+msgstr "Puedes comunicarte con el bot en el chat privado @{}"
 
 #: source/telegram/callback/handlers.py:19 source/telegram/menu/__init__.py:75
 #: source/telegram/menu/goods.py:19 source/telegram/menu/goods.py:24
@@ -333,7 +333,7 @@ msgstr "Por el momento no eres miembro de ninguna empresa."
 
 #: source/telegram/command/__init__.py:8
 msgid "Use @{} chat to create your own company by /start command."
-msgstr "Use el chat @ {} para crear su propia empresa mediante el comando / start."
+msgstr "Use el chat @{} para crear su propia empresa mediante el comando / start."
 
 #: source/telegram/command/language.py:23
 msgid "Your current language is '{}'."
@@ -350,7 +350,7 @@ msgstr "Para volver al menú bot, use el comando / start."
 
 #: source/telegram/command/language.py:35
 msgid "/language command can be used in private chat @{}"
-msgstr "El comando / language se puede usar en el chat privado @ {}"
+msgstr "El comando / language se puede usar en el chat privado @{}"
 
 #: source/telegram/command/language.py:48
 #: source/telegram/command/start/private/__init__.py:104
@@ -448,7 +448,7 @@ cambiado?"
 
 #: source/telegram/command/notify_schedule.py:56
 msgid "/notifyschedule command can be used in private chat @{}"
-msgstr "El comando / notifyschedule se puede usar en el chat privado @ {}"
+msgstr "El comando /notifyschedule se puede usar en el chat privado @{}"
 
 #: source/telegram/command/partnership.py:16
 msgid "Notifications"
@@ -460,7 +460,7 @@ msgstr "Descargar .csv"
 
 #: source/telegram/command/partnership.py:35
 msgid "Welcome to @{} partnership program!"
-msgstr "¡Bienvenido al programa de asociación @ {}!"
+msgstr "¡Bienvenido al programa de asociación @{}!"
 
 #: source/telegram/command/partnership.py:37
 msgid "Total referrals: {}"
@@ -501,7 +501,7 @@ msgstr "Solo A-Z, a-z, 0-9 _ y - están permitidos."
 
 #: source/telegram/command/partnership.py:61
 msgid "/partnership command can be used in private chat @{}"
-msgstr "El comando / partnership se puede usar en el chat privado @ {}"
+msgstr "El comando / partnership se puede usar en el chat privado @{}"
 
 #: source/telegram/command/partnership.py:75
 msgid "Are you want a Telegram notifications?"
@@ -531,7 +531,7 @@ msgstr "Dejaste la empresa '{}'."
 
 #: source/telegram/command/stop.py:20
 msgid "/stop command can be used by a member of the company to leave."
-msgstr "El comando / stop puede ser utilizado por un miembro de la compañía para salir."
+msgstr "El comando /stop puede ser utilizado por un miembro de la compañía para salir."
 
 #: source/telegram/command/stop.py:40
 msgid "You are a creator of company '{}', so you can't leave."
@@ -547,7 +547,7 @@ msgstr "¿Estás seguro de que quieres dejar la compañía '{}'?"
 
 #: source/telegram/command/stop.py:52
 msgid "/stop command can be used in private chat @{}"
-msgstr "El comando / stop se puede usar en el chat privado @ {}"
+msgstr "El comando /stop se puede usar en el chat privado @{}"
 
 #: source/telegram/command/help/main.py:4 source/telegram/menu/__init__.py:173
 msgid ""
@@ -559,7 +559,7 @@ msgstr ""
 
 #: source/telegram/command/help/main.py:6
 msgid "You can control this bot by sending commands to @{}"
-msgstr "Puedes controlar este bot enviando comandos a @ {}"
+msgstr "Puedes controlar este bot enviando comandos a @{}"
 
 #: source/telegram/command/help/main.py:8
 msgid "Each command starts with '/' char."
@@ -593,11 +593,11 @@ msgstr "use esto para dejar su compañía actual."
 
 #: source/telegram/command/help/main.py:22
 msgid "set language for private chat @{}"
-msgstr "establecer idioma para chat privado @ {}"
+msgstr "establecer idioma para chat privado @{}"
 
 #: source/telegram/command/help/main.py:24
 msgid "turn on/off notifications about changes in company schedule."
-msgstr "activar / desactivar notificaciones sobre cambios en el horario de la empresa."
+msgstr "activar/desactivar notificaciones sobre cambios en el horario de la empresa."
 
 #: source/telegram/command/help/main.py:26
 msgid ""
@@ -638,7 +638,7 @@ msgstr "http://telegra.ph/Privacy-Policy-07-27"
 
 #: source/telegram/command/help/main.py:45
 msgid "[Telegram channel]({}) with news about bot development."
-msgstr "[Canal de Telegram] ({}) con noticias sobre el desarrollo de bot."
+msgstr "[Canal de Telegram]({}) con noticias sobre el desarrollo de bot."
 
 #: source/telegram/command/help/main.py:45
 msgid "https://t.me/bsbnewsen"
